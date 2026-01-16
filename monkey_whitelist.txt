@@ -1,0 +1,1 @@
+com.hotpotgames.happysave.global
