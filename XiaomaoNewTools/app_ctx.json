@@ -1,0 +1,53 @@
+{
+  "package": "com.aipix.photos.aging.hug.with.jesus",
+  "launch_component": "com.aipix.photos.aging.hug.with.jesus/com.aipix.photos.aging.hug.with.jesus.activity.ObsidianSplashActivity",
+  "launch_component_source": "preparse",
+  "launch_strategy": "component",
+  "install_done_time": "2026-01-13T17:53:07",
+  "firebase_log_start_time": "2026-01-13T17:53:07",
+  "promote": {
+    "time": "2026-01-13T17:53:29.892",
+    "ad_network": "Mintegral",
+    "raw_log": "01-13 17:53:29.892 V/FA-SVC  (29487): Logging event: origin=app,name=adjust_Get_Promote,params=Bundle[{is_new=new, adgroup={affiliate_id}, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=ObsidianSplashActivity, ga_screen_id(_si)=6022290831652221497, D_15=Y, D_30=Y, D_45=Y, D_60=Y, Pass_Time=10, creative={creative_name}, ad_network=Mintegral}]"
+  },
+  "ad_impressions": [
+    {
+      "index": 1,
+      "time": "2026-01-13T17:54:58.031",
+      "ad_platform": "BigoAds",
+      "ad_unit_name": "11375893-11248909",
+      "ad_format": "Rewarded",
+      "ad_source": "BigoAds",
+      "value": "1.2066773E-4",
+      "raw_log": "01-13 17:54:58.031 V/FA-SVC  (29487): Logging event: origin=app,name=ad_impression,params=Bundle[{ad_unit_name=11375893-11248909, ga_event_origin(_o)=app, ga_screen_class(_sc)=CompanionAdActivity, ga_screen_id(_si)=-8638761595393753923, value=1.2066773E-4, ad_format=Rewarded, currency=USD, ad_source=BigoAds, ad_platform=BigoAds}]"
+    }
+  ],
+  "actions": [
+    {
+      "time": "2026-01-13T17:54:30",
+      "action": "force_stop",
+      "package": "com.aipix.photos.aging.hug.with.jesus",
+      "after_impression": 0
+    },
+    {
+      "time": "2026-01-13T17:54:30",
+      "action": "restart_by_component",
+      "component": "com.aipix.photos.aging.hug.with.jesus/com.aipix.photos.aging.hug.with.jesus.activity.ObsidianSplashActivity",
+      "after_impression": 0
+    },
+    {
+      "time": "2026-01-13T17:55:02",
+      "action": "force_stop",
+      "package": "com.aipix.photos.aging.hug.with.jesus",
+      "after_impression": 1
+    },
+    {
+      "time": "2026-01-13T17:55:02",
+      "action": "restart_by_component",
+      "component": "com.aipix.photos.aging.hug.with.jesus/com.aipix.photos.aging.hug.with.jesus.activity.ObsidianSplashActivity",
+      "after_impression": 1
+    }
+  ],
+  "result": null,
+  "fail_reason": null
+}

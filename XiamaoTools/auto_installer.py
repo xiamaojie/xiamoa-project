@@ -5,6 +5,7 @@
 import glob
 import os
 import subprocess
+from pathlib import Path
 
 # 下载目录路径
 downloads_dir = "/Users/admin/Downloads"
@@ -21,16 +22,19 @@ if not all_files:
 latest_file = max(all_files, key=os.path.getmtime)
 print(f"最新文件: {latest_file}")
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+VENV_PYTHON = str(PROJECT_ROOT / ".venv" / "bin" / "python3")
+
 # 要执行的命令
 if latest_file.endswith(".aab"):
     command = [
-        "/Users/admin/PycharmProjects/XiamaoProject/.venv/bin/python3",
-        "/Users/admin/PycharmProjects/XiamaoProject/XiamaoTools/install_aabV2.py"
+        VENV_PYTHON,
+        str(PROJECT_ROOT / "XiamaoTools" / "install_aabV2.py"),
     ]
 elif latest_file.endswith(".apk"):
     command = [
-        "/Users/admin/PycharmProjects/XiamaoProject/.venv/bin/python3",
-        "/Users/admin/PycharmProjects/XiamaoProject/XiamaoTools/AppUpdate.py"
+        VENV_PYTHON,
+        str(PROJECT_ROOT / "XiamaoTools" / "AppUpdate.py"),
     ]
 else:
     print("未知的文件类型。")

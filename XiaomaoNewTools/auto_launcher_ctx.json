@@ -1,0 +1,164 @@
+{
+  "package": "com.hotpotgames.happysave.global",
+  "app_name": "Shimeji Party",
+  "launch_component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+  "launch_component_source": "preparse",
+  "launch_strategy": "component",
+  "install_done_time": "2026-01-19T17:04:50",
+  "firebase_log_start_time": "2026-01-19T17:04:50",
+  "promote": {
+    "time": "2026-01-19T17:05:48.516",
+    "ad_network": "SDKTestGame-MTG2",
+    "raw_log": "01-19 17:05:48.516 V/FA-SVC  (26110): Logging event: origin=app,name=adjust_Get_Promote,params=Bundle[{is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=LoadingAct, ga_screen_id(_si)=6492454140978678254, D_15=Y, D_30=Y, D_45=Y, D_60=Y, Pass_Time=4, cold_open=3, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+  },
+  "ad_impressions": [
+    {
+      "index": 1,
+      "time": "2026-01-19T17:05:34.597",
+      "ad_platform": "Admob",
+      "ad_unit_name": "ca-app-pub-3940256099942544/2247696110",
+      "ad_format": "Native",
+      "ad_source": "Reservation campaign",
+      "value": "0.0",
+      "raw_log": "01-19 17:05:34.597 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-3940256099942544/2247696110, is_new=new, adgroup=, hot_open=1, campaign=, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=LauncherHomeActivity, ga_screen_id(_si)=-1711250125274214352, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=0.0, ad_format=Native, currency=USD, position=guide_nat, ad_source=Reservation campaign, ad_platform=Admob, format_number=1, cold_open=2, native_type=1, creative=, ad_network=}]"
+    },
+    {
+      "index": 2,
+      "time": "2026-01-19T17:06:22.526",
+      "ad_platform": "TopOn",
+      "ad_unit_name": "n1gobgr04hkt76",
+      "ad_format": "Rewarded",
+      "ad_source": "Mintegral",
+      "value": "4.012E-4",
+      "raw_log": "01-19 17:06:22.526 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=n1gobgr04hkt76, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=MBRewardVideoActivity, ga_screen_id(_si)=6492454140978678335, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=4.012E-4, ad_format=Rewarded, currency=USD, position=Sidebar, ad_source=Mintegral, ad_platform=TopOn, format_number=1, cold_open=3, native_type=0, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+    },
+    {
+      "index": 3,
+      "time": "2026-01-19T17:06:22.872",
+      "ad_platform": "Admob",
+      "ad_unit_name": "ca-app-pub-3940256099942544/2247696110",
+      "ad_format": "Native",
+      "ad_source": "Reservation campaign",
+      "value": "0.0",
+      "raw_log": "01-19 17:06:22.872 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-3940256099942544/2247696110, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=MBRewardVideoActivity, ga_screen_id(_si)=6492454140978678335, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=0.0, ad_format=Native, currency=USD, position=Home_native, ad_source=Reservation campaign, ad_platform=Admob, format_number=2, cold_open=3, native_type=3, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+    },
+    {
+      "index": 4,
+      "time": "2026-01-19T17:06:38.212",
+      "ad_platform": "Admob",
+      "ad_unit_name": "ca-app-pub-3940256099942544/1033173712",
+      "ad_format": "Interstitial",
+      "ad_source": "Reservation campaign",
+      "value": "0.0",
+      "raw_log": "01-19 17:06:38.212 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-3940256099942544/1033173712, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=-2613000894460978842, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=0.0, ad_format=Interstitial, currency=USD, position=Click_ICON, ad_source=Reservation campaign, ad_platform=Admob, format_number=1, cold_open=4, native_type=0, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+    },
+    {
+      "index": 5,
+      "time": "2026-01-19T17:07:20.638",
+      "ad_platform": "TopOn",
+      "ad_unit_name": "n1gobgr04hkt76",
+      "ad_format": "Rewarded",
+      "ad_source": "Mintegral",
+      "value": "3.812E-4",
+      "raw_log": "01-19 17:07:20.638 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=2, ad_unit_name=n1gobgr04hkt76, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=MBRewardVideoActivity, ga_screen_id(_si)=4294326831104003264, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=3.812E-4, ad_format=Rewarded, currency=USD, position=Click_ICON, ad_source=Mintegral, ad_platform=TopOn, format_number=2, cold_open=5, native_type=0, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+    },
+    {
+      "index": 6,
+      "time": "2026-01-19T17:07:55.908",
+      "ad_platform": "TopOn",
+      "ad_unit_name": "n1gobgr04hkt76",
+      "ad_format": "Rewarded",
+      "ad_source": "Mintegral",
+      "value": "3.3516676E-4",
+      "raw_log": "01-19 17:07:55.908 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=3, ad_unit_name=n1gobgr04hkt76, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=MBRewardVideoActivity, ga_screen_id(_si)=6995482614037629338, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=3.3516676E-4, ad_format=Rewarded, currency=USD, position=Click_ICON, ad_source=Mintegral, ad_platform=TopOn, format_number=3, cold_open=6, native_type=0, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+    }
+  ],
+  "actions": [
+    {
+      "time": "2026-01-19T17:05:00",
+      "action": "force_stop_before_launcher",
+      "package": "com.hotpotgames.happysave.global"
+    },
+    {
+      "time": "2026-01-19T17:05:35",
+      "action": "force_stop_after_impression",
+      "package": "com.hotpotgames.happysave.global",
+      "after_impression": 1,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:05:36",
+      "action": "restart_by_component",
+      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "after_impression": 1,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:06:23",
+      "action": "force_stop_after_impression",
+      "package": "com.hotpotgames.happysave.global",
+      "after_impression": 2,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:06:24",
+      "action": "restart_by_component",
+      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "after_impression": 2,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:06:24",
+      "action": "force_stop_after_impression",
+      "package": "com.hotpotgames.happysave.global",
+      "after_impression": 3,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:06:24",
+      "action": "restart_by_component",
+      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "after_impression": 3,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:06:39",
+      "action": "force_stop_after_impression",
+      "package": "com.hotpotgames.happysave.global",
+      "after_impression": 4,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:06:39",
+      "action": "restart_by_component",
+      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "after_impression": 4,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:07:21",
+      "action": "force_stop_after_impression",
+      "package": "com.hotpotgames.happysave.global",
+      "after_impression": 5,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-01-19T17:07:22",
+      "action": "restart_by_component",
+      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "after_impression": 5,
+      "delay_sec": 10
+    }
+  ],
+  "result": "PASS",
+  "fail_reason": null,
+  "ad_format_counts": {
+    "Native": 2,
+    "Rewarded": 3,
+    "Interstitial": 1
+  },
+  "ad_platform_counts": {
+    "Admob": 3,
+    "TopOn": 3
+  }
+}
