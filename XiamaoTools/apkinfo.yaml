@@ -1,6 +1,6 @@
 com.deama.gold.shortreel:
-  version: 1.0.4
-  versionCode: 104
+  version: 1.0.5
+  versionCode: 105
 com.earth.explorer.launcher.live.map.satelliteview:
   version: 1.1.2
   versionCode: 16
@@ -29,8 +29,8 @@ com.alibaba.aliyun:
   version: 4.20.1
   versionCode: 18021149
 com.shimeji.party.anime.screen.pets.friends:
-  version: 1.0.2
-  versionCode: 2
+  version: 1.0.4
+  versionCode: 4
 com.locate.my.friends.family.map.gps:
   version: 1.0.0
   versionCode: 1
@@ -40,3 +40,36 @@ com.sniper.master.free.game.vnksa.puzzle:
 com.bright.flashlight.torch.light.your.road:
   version: 1.0.2
   versionCode: 3
+com.pdf.reader.file.manager.imagetopdf:
+  version: 1.0.8
+  versionCode: 9
+com.earthmap.camera.satellite.pro:
+  version: 1.0.0
+  versionCode: 1
+com.my.health.log.protect.heart.blood.sugar:
+  version: 1.0.6
+  versionCode: 7
+com.fast.video.image.recover.data.easy.back:
+  version: 1.0.1
+  versionCode: 2
+com.photo.data.video.file.recovery:
+  version: 1.0.3
+  versionCode: 4
+com.pdf.reader.filereader.launcher:
+  version: 1.0.5
+  versionCode: 9
+com.safe.data.recovery.protect.your.data.video.image:
+  version: 1.0.2
+  versionCode: 3
+com.shimeji.live.anime.screen.pets:
+  version: 1.0.0
+  versionCode: 1
+com.shimeji.planet.anime.screen.pets:
+  version: 1.0.0
+  versionCode: 1
+com.wallpaper.launcher.live.pure.magic.desktop:
+  version: 1.1.1
+  versionCode: 13
+com.DefaultCompany.ArrowAndArrow:
+  version: 1.0.0
+  versionCode: 2

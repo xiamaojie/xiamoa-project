@@ -50,8 +50,8 @@ Disable_permission_list = {
 List_of_high_risk_permissions = {
     "ACCESS_FINE_LOCATION": "获取精确位置",
     "ACCESS_BACKGROUND_LOCATION": "后台获取位置（需单独申请，且 Google Play 要求提供强必要性说明）",
-    "WRITE_EXTERNAL_STORAGE": "Android 10 以下的传统外部存储读写权限",
-    "READ_EXTERNAL_STORAGE": "Android 10 以下的传统外部存储读写权限",
+    # "WRITE_EXTERNAL_STORAGE": "Android 10 以下的传统外部存储读写权限",
+    # "READ_EXTERNAL_STORAGE": "Android 10 以下的传统外部存储读写权限",
     "READ_MEDIA_IMAGES": "Android 13+ 引入的细粒度媒体（图片）访问权限，需按需申请并说明用途；可用系统选择器代替",
     "READ_MEDIA_VIDEO": "Android 13+ 引入的细粒度媒体（视频）访问权限，需按需申请并说明用途；可用系统选择器代替",
     "USE_FULL_SCREEN_INTENT": "全屏通知",
@@ -712,7 +712,7 @@ if __name__ == "__main__":
     # 不指定路径安装
     parser.add_argument("--aab", help="AAB 文件路径（可选）", default=None)
     # 指定路径安装
-    # parser.add_argument("--aab", help="AAB 文件路径（可选）", default="/Users/admin/Downloads/11-24_test1.aab")
+    # parser.add_argument("--aab", help="AAB 文件路径（可选）", default="/Users/admin/Downloads/Clap&Locate-1.0.0-debug.aab")
     parser.add_argument("--directory", help="搜索 AAB 的目录（默认: /Users/admin/Downloads）",
                         default="/Users/admin/Downloads")
     parser.add_argument("--keystore", help="签名 keystore 文件（可选）", default=None)

@@ -71,7 +71,8 @@ if __name__ == "__main__":
     while True:
         print("检查中...")
         time.sleep(1)
-        package = "com.hotpotgames.happysave.global"
+        # package = "com.hotpotgames.happysave.global"
+        package = "com.deama.gold.shortreel"
         print(f"正在检查 App: {package}")
         if is_app_foreground(package):
             print(f"✅ {package} 当前在前台运行")

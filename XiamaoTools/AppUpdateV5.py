@@ -205,6 +205,33 @@ def run_command(cmd: List[str], desc: str = "") -> None:
 # APK 信息解析 & 历史版本记录
 # ===========================
 
+def get_app_name_via_aapt2(apk_path: str) -> Optional[str]:
+    """使用 aapt2 dump badging 兜底获取 application-label。"""
+    try:
+        result = subprocess.run(
+            ["aapt2", "dump", "badging", apk_path],
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+    except FileNotFoundError:
+        print("⚠️ 未找到 aapt2，无法兜底解析应用名。")
+        return None
+    except subprocess.CalledProcessError as exc:
+        err_text = exc.stderr.strip() if exc.stderr else ""
+        print(f"⚠️ aapt2 解析失败：{err_text}")
+        return None
+
+    for line in result.stdout.splitlines():
+        if line.startswith("application-label:"):
+            # application-label:'My App'
+            match = re.search(r"application-label:'([^']*)'", line)
+            if match:
+                return match.group(1)
+    return None
+
+
 def extract_apk_info_from_apk(apk_path: str) -> Dict[str, Optional[str]]:
     """
     从 APK 文件中提取信息：包名、应用名、版本号、versionCode、target_sdk_version。
@@ -233,8 +260,11 @@ def extract_apk_info_from_apk(apk_path: str) -> Dict[str, Optional[str]]:
         try:
             app_name = apk.get_app_name()
         except ResParserError as parse_err:
-            print(f"⚠️ resources.arsc 解析失败: {parse_err}，应用名降级为包名。")
-            app_name = package_name or "<unknown_app>"
+            print(f"⚠️ resources.arsc 解析失败: {parse_err}，尝试使用 aapt2 兜底解析应用名。")
+            app_name = get_app_name_via_aapt2(apk_path)
+            if not app_name:
+                print("⚠️ aapt2 兜底失败，应用名降级为包名。")
+                app_name = package_name or "<unknown_app>"
 
         try:
             target_sdk_version = apk.get_target_sdk_version()
@@ -664,12 +694,10 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="📦 使用 ADB 安装 APK 到 Android 设备")
-    # 指定路径,不需要时需要注释
     parser.add_argument(
         "--apk",
         help="APK 文件路径（可选）",
-        default="/Users/admin/Downloads/vasdolly_output/googleplay-EarthMapProLiveView-1.0.0-release.apk",
-        # default="",
+        default=None,
     )
     parser.add_argument(
         "--directory",

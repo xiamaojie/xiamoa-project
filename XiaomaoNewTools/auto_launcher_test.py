@@ -1,4 +1,13 @@
-from __future__ import annotations
+"""
+AutoLauncherTest 功能概述（马甲包验证场景）：
+- 目标：验证广告正常曝光与主流程“设置默认桌面”功能稳定可用
+- 预清理假桌面/启动器残留后安装目标应用，解析包名与启动组件
+- 启用 Firebase Debug 并持续监听 logcat，统计 ad_impression 次数与关键字段（可扩展为 Promote 买量用户条件必达校验）
+- 关闭网络并处理开屏/弹窗广告，完成“默认桌面”选择后再恢复 Wi-Fi
+- 冷启动/force-stop 后多次重启验证：按曝光触发 force-stop，再通过组件或 monkey 兜底重启
+- 启动 monkey 注入随机事件，配合曝光统计观察广告展示与流程稳定性
+- 输出执行上下文与统计结果（启动方式、曝光明细、平台/格式计数）
+"""
 
 import json
 import re
@@ -19,6 +28,7 @@ import uiautomator2 as u2
 # ==================================================
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 INSTALL_SCRIPT = str(PROJECT_ROOT / "XiamaoTools" / "install_aabV7.py")
+LAUNCHER_CLEAN_SCRIPT = str(PROJECT_ROOT / "XiamaoTools" / "clean_fake_launchers.py")
 XIAMAO_PYTHON = str(PROJECT_ROOT / ".venv" / "bin" / "python")
 
 # ==================================================
@@ -33,10 +43,10 @@ FIREBASE_LOG_PATH = OUT_DIR / "auto_launcher_firebase.log"
 # ==================================================
 PROMOTE_WAIT_SEC = 100  # 保留但跳过必达
 FIREBASE_PARAM_DELAY_SEC = 10  # 安装启动后主线程延迟时间（等待应用稳定）
-IMPRESSION_TARGET = 6  # 监听广告曝光次数目标
+IMPRESSION_TARGET = 10  # 监听广告曝光次数目标
 LAUNCH_WAIT = 0  # 启动后额外等待（默认 0，直接等待按钮出现）
 # monkey 参数：以分钟和每分钟事件数控制
-MONKEY_DURATION_MIN = 10  # monkey 运行时长（分钟）
+MONKEY_DURATION_MIN = 15  # monkey 运行时长（分钟）
 MONKEY_EVENTS_PER_MIN = 200  # 每分钟事件数（更温和，偏监控曝光）
 MONKEY_THROTTLE_MS = 400  # 事件节流
 MONKEY_OBSERVE_SEC = MONKEY_DURATION_MIN * 60 + 30  # 观察窗口 = 时长 + buffer
@@ -196,6 +206,18 @@ def kill_monkey_process() -> None:
         print(f"🧹 已结束 monkey 进程: {', '.join(pids)}")
     except Exception as e:
         print(f"⚠️ 清理 monkey 进程失败: {e}")
+
+
+def clean_fake_launchers() -> subprocess.CompletedProcess[str]:
+    print("🧹 预清理：执行 clean_fake_launchers.py")
+    result = subprocess.run(
+        [XIAMAO_PYTHON, LAUNCHER_CLEAN_SCRIPT],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"clean_fake_launchers.py 执行失败，code={result.returncode}")
+    return result
 
 
 def monkey_supports(option: str) -> bool:
@@ -585,7 +607,7 @@ def set_default_launcher(package: str, app_name: str) -> None:
     after_dump = d.dump_hierarchy()
     if before_dump == after_dump:
         raise AssertionError("点击默认桌面选项后界面未变化，可能未成功跳转到桌面")
-
+    # time.sleep(1)
     print("✅ 默认桌面设置完成（检测到界面已变化）")
 
 
@@ -655,8 +677,32 @@ def main() -> None:
         "fail_reason": None,
         "ad_format_counts": {},
         "ad_platform_counts": {},
+        "preclean": None,
     }
     write_app_ctx(ctx)
+
+    try:
+        result = clean_fake_launchers()
+        ctx["preclean"] = {
+            "returncode": result.returncode,
+            "stdout": result.stdout,
+            "stderr": result.stderr,
+        }
+        write_app_ctx(ctx)
+        if result.stdout:
+            print(result.stdout, end="")
+        if result.stderr:
+            print(result.stderr, end="")
+    except Exception as e:
+        ctx["preclean"] = {
+            "returncode": None,
+            "stdout": None,
+            "stderr": None,
+            "error": str(e),
+        }
+        write_app_ctx(ctx)
+        print(f"❌ FAIL：预清理启动器失败: {e}")
+        sys.exit(1)
 
     print("🚀 AutoLauncherTest：安装 → 立即监听 Firebase → 缓冲10s → 设置默认桌面 → monkey 监听广告")
 

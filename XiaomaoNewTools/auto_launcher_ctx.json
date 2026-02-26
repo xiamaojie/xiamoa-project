@@ -1,164 +1,288 @@
 {
-  "package": "com.hotpotgames.happysave.global",
-  "app_name": "Shimeji Party",
-  "launch_component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+  "package": "com.my.health.log.protect.heart.blood.sugar",
+  "app_name": "My Health Log",
+  "launch_component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
   "launch_component_source": "preparse",
   "launch_strategy": "component",
-  "install_done_time": "2026-01-19T17:04:50",
-  "firebase_log_start_time": "2026-01-19T17:04:50",
+  "install_done_time": "2026-02-26T16:03:45",
+  "firebase_log_start_time": "2026-02-26T16:03:46",
   "promote": {
-    "time": "2026-01-19T17:05:48.516",
-    "ad_network": "SDKTestGame-MTG2",
-    "raw_log": "01-19 17:05:48.516 V/FA-SVC  (26110): Logging event: origin=app,name=adjust_Get_Promote,params=Bundle[{is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=LoadingAct, ga_screen_id(_si)=6492454140978678254, D_15=Y, D_30=Y, D_45=Y, D_60=Y, Pass_Time=4, cold_open=3, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+    "time": "2026-02-26T16:06:43.412",
+    "ad_network": "Mintegral",
+    "raw_log": "02-26 16:06:43.412 V/FA-SVC  (15823): Logging event: origin=app,name=adjust_Get_Promote,params=Bundle[{device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=WeatherActivity, ga_screen_id(_si)=8675349894421732640, store_channel=, Pass_Time=103, cold_open=2, creative={creative_name}, ad_network=Mintegral}]"
   },
   "ad_impressions": [
     {
       "index": 1,
-      "time": "2026-01-19T17:05:34.597",
+      "time": "2026-02-26T16:07:08.563",
       "ad_platform": "Admob",
-      "ad_unit_name": "ca-app-pub-3940256099942544/2247696110",
-      "ad_format": "Native",
-      "ad_source": "Reservation campaign",
-      "value": "0.0",
-      "raw_log": "01-19 17:05:34.597 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-3940256099942544/2247696110, is_new=new, adgroup=, hot_open=1, campaign=, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=LauncherHomeActivity, ga_screen_id(_si)=-1711250125274214352, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=0.0, ad_format=Native, currency=USD, position=guide_nat, ad_source=Reservation campaign, ad_platform=Admob, format_number=1, cold_open=2, native_type=1, creative=, ad_network=}]"
+      "ad_unit_name": "ca-app-pub-8360725793066207/1412363323",
+      "ad_format": "Interstitial",
+      "ad_source": "AdMob Network Waterfall",
+      "value": "0.00408",
+      "params_count": 22,
+      "raw_log": "02-26 16:07:08.563 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-8360725793066207/1412363323, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=8675349894421732644, value=0.00408, ad_format=Interstitial, currency=USD, position=Click_ICON, ad_source=AdMob Network Waterfall, store_channel=, ad_platform=Admob, format_number=1, cold_open=2, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
     },
     {
       "index": 2,
-      "time": "2026-01-19T17:06:22.526",
-      "ad_platform": "TopOn",
-      "ad_unit_name": "n1gobgr04hkt76",
-      "ad_format": "Rewarded",
-      "ad_source": "Mintegral",
-      "value": "4.012E-4",
-      "raw_log": "01-19 17:06:22.526 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=n1gobgr04hkt76, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=MBRewardVideoActivity, ga_screen_id(_si)=6492454140978678335, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=4.012E-4, ad_format=Rewarded, currency=USD, position=Sidebar, ad_source=Mintegral, ad_platform=TopOn, format_number=1, cold_open=3, native_type=0, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+      "time": "2026-02-26T16:07:36.842",
+      "ad_platform": "Admob",
+      "ad_unit_name": "ca-app-pub-8360725793066207/1412363323",
+      "ad_format": "Interstitial",
+      "ad_source": "AdMob Network Waterfall",
+      "value": "0.002604",
+      "params_count": 22,
+      "raw_log": "02-26 16:07:36.842 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-8360725793066207/1412363323, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=-784607795274276418, value=0.002604, ad_format=Interstitial, currency=USD, position=Click_BMI, ad_source=AdMob Network Waterfall, store_channel=, ad_platform=Admob, format_number=2, cold_open=3, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
     },
     {
       "index": 3,
-      "time": "2026-01-19T17:06:22.872",
+      "time": "2026-02-26T16:08:00.250",
       "ad_platform": "Admob",
-      "ad_unit_name": "ca-app-pub-3940256099942544/2247696110",
-      "ad_format": "Native",
-      "ad_source": "Reservation campaign",
-      "value": "0.0",
-      "raw_log": "01-19 17:06:22.872 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-3940256099942544/2247696110, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=MBRewardVideoActivity, ga_screen_id(_si)=6492454140978678335, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=0.0, ad_format=Native, currency=USD, position=Home_native, ad_source=Reservation campaign, ad_platform=Admob, format_number=2, cold_open=3, native_type=3, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+      "ad_unit_name": "ca-app-pub-8360725793066207/1412363323",
+      "ad_format": "Interstitial",
+      "ad_source": "AdMob Network Waterfall",
+      "value": "0.002517",
+      "params_count": 22,
+      "raw_log": "02-26 16:08:00.250 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-8360725793066207/1412363323, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=-9140864043405297248, value=0.002517, ad_format=Interstitial, currency=USD, position=Back_Main, ad_source=AdMob Network Waterfall, store_channel=, ad_platform=Admob, format_number=3, cold_open=4, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
     },
     {
       "index": 4,
-      "time": "2026-01-19T17:06:38.212",
+      "time": "2026-02-26T16:08:00.807",
       "ad_platform": "Admob",
-      "ad_unit_name": "ca-app-pub-3940256099942544/1033173712",
-      "ad_format": "Interstitial",
-      "ad_source": "Reservation campaign",
-      "value": "0.0",
-      "raw_log": "01-19 17:06:38.212 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-3940256099942544/1033173712, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=-2613000894460978842, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=0.0, ad_format=Interstitial, currency=USD, position=Click_ICON, ad_source=Reservation campaign, ad_platform=Admob, format_number=1, cold_open=4, native_type=0, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+      "ad_unit_name": "ca-app-pub-8360725793066207/6145815259",
+      "ad_format": "Splash",
+      "ad_source": "AdMob Network Waterfall",
+      "value": "0.001296",
+      "params_count": 22,
+      "raw_log": "02-26 16:08:00.807 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=2, ad_unit_name=ca-app-pub-8360725793066207/6145815259, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=-9140864043405297243, value=0.001296, ad_format=Splash, currency=USD, position=Back_Main, ad_source=AdMob Network Waterfall, store_channel=, ad_platform=Admob, format_number=1, cold_open=4, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
     },
     {
       "index": 5,
-      "time": "2026-01-19T17:07:20.638",
-      "ad_platform": "TopOn",
-      "ad_unit_name": "n1gobgr04hkt76",
-      "ad_format": "Rewarded",
-      "ad_source": "Mintegral",
-      "value": "3.812E-4",
-      "raw_log": "01-19 17:07:20.638 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=2, ad_unit_name=n1gobgr04hkt76, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=MBRewardVideoActivity, ga_screen_id(_si)=4294326831104003264, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=3.812E-4, ad_format=Rewarded, currency=USD, position=Click_ICON, ad_source=Mintegral, ad_platform=TopOn, format_number=2, cold_open=5, native_type=0, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+      "time": "2026-02-26T16:08:27.407",
+      "ad_platform": "Admob",
+      "ad_unit_name": "ca-app-pub-8360725793066207/1412363323",
+      "ad_format": "Interstitial",
+      "ad_source": "AdMob Network Waterfall",
+      "value": "0.002516",
+      "params_count": 22,
+      "raw_log": "02-26 16:08:27.407 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=2, ad_unit_name=ca-app-pub-8360725793066207/1412363323, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=7985230269277676254, value=0.002516, ad_format=Interstitial, currency=USD, position=Click_ICON, ad_source=AdMob Network Waterfall, store_channel=, ad_platform=Admob, format_number=4, cold_open=6, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
     },
     {
       "index": 6,
-      "time": "2026-01-19T17:07:55.908",
+      "time": "2026-02-26T16:09:30.730",
+      "ad_platform": "Admob",
+      "ad_unit_name": "ca-app-pub-8360725793066207/1412363323",
+      "ad_format": "Interstitial",
+      "ad_source": "AdMob Network Waterfall",
+      "value": "0.002521",
+      "params_count": 22,
+      "raw_log": "02-26 16:09:30.730 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=3, ad_unit_name=ca-app-pub-8360725793066207/1412363323, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=-107970519234623865, value=0.002521, ad_format=Interstitial, currency=USD, position=Click_ICON, ad_source=AdMob Network Waterfall, store_channel=, ad_platform=Admob, format_number=5, cold_open=7, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
+    },
+    {
+      "index": 7,
+      "time": "2026-02-26T16:09:55.350",
+      "ad_platform": "Admob",
+      "ad_unit_name": "ca-app-pub-8360725793066207/1412363323",
+      "ad_format": "Interstitial",
+      "ad_source": "AdMob Network Waterfall",
+      "value": "0.00252",
+      "params_count": 22,
+      "raw_log": "02-26 16:09:55.350 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=4, ad_unit_name=ca-app-pub-8360725793066207/1412363323, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=5641441833014474833, value=0.00252, ad_format=Interstitial, currency=USD, position=Click_ICON, ad_source=AdMob Network Waterfall, store_channel=, ad_platform=Admob, format_number=6, cold_open=8, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
+    },
+    {
+      "index": 8,
+      "time": "2026-02-26T16:10:12.031",
       "ad_platform": "TopOn",
-      "ad_unit_name": "n1gobgr04hkt76",
-      "ad_format": "Rewarded",
-      "ad_source": "Mintegral",
-      "value": "3.3516676E-4",
-      "raw_log": "01-19 17:07:55.908 V/FA-SVC  (26110): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=3, ad_unit_name=n1gobgr04hkt76, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, D_2=Y, D_3=Y, D_7=Y, ga_screen_class(_sc)=MBRewardVideoActivity, ga_screen_id(_si)=6995482614037629338, D_15=Y, D_30=Y, D_45=Y, D_60=Y, value=3.3516676E-4, ad_format=Rewarded, currency=USD, position=Click_ICON, ad_source=Mintegral, ad_platform=TopOn, format_number=3, cold_open=6, native_type=0, creative={creative_name}, ad_network=SDKTestGame-MTG2}]"
+      "ad_unit_name": "n1h1dd5v322bj3",
+      "ad_format": "Splash",
+      "ad_source": "Topon Adx",
+      "value": "2.9999999999999997E-5",
+      "params_count": 22,
+      "raw_log": "02-26 16:10:12.031 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=n1h1dd5v322bj3, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=TopOnSplashAdActivity, ga_screen_id(_si)=2234342738504932766, value=2.9999999999999997E-5, ad_format=Splash, currency=USD, position=Sidebar, ad_source=Topon Adx, store_channel=, ad_platform=TopOn, format_number=2, cold_open=9, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
+    },
+    {
+      "index": 9,
+      "time": "2026-02-26T16:10:31.581",
+      "ad_platform": "Admob",
+      "ad_unit_name": "ca-app-pub-8360725793066207/1412363323",
+      "ad_format": "Interstitial",
+      "ad_source": "AdMob Network Waterfall",
+      "value": "0.002594",
+      "params_count": 22,
+      "raw_log": "02-26 16:10:31.581 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=3, ad_unit_name=ca-app-pub-8360725793066207/1412363323, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=AdActivity, ga_screen_id(_si)=6260414650029489454, value=0.002594, ad_format=Interstitial, currency=USD, position=Back_Main, ad_source=AdMob Network Waterfall, store_channel=, ad_platform=Admob, format_number=7, cold_open=10, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
+    },
+    {
+      "index": 10,
+      "time": "2026-02-26T16:10:54.025",
+      "ad_platform": "TopOn",
+      "ad_unit_name": "n1h1dd5v1i6dk2",
+      "ad_format": "Interstitial",
+      "ad_source": ", store_channel=, ad_platform=TopOn, format_number=8, cold_open=11, native_type=0, creative={creative_name",
+      "value": "2.1435E-4",
+      "params_count": 22,
+      "raw_log": "02-26 16:10:54.025 V/FA-SVC  (15823): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=2, ad_unit_name=n1h1dd5v1i6dk2, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=3, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=ATRewardVideoActivity, ga_screen_id(_si)=-7156666616212888562, value=2.1435E-4, ad_format=Interstitial, currency=USD, position=Sidebar, ad_source=, store_channel=, ad_platform=TopOn, format_number=8, cold_open=11, native_type=0, creative={creative_name}, ad_network=Mintegral}]"
     }
   ],
   "actions": [
     {
-      "time": "2026-01-19T17:05:00",
+      "time": "2026-02-26T16:03:55",
       "action": "force_stop_before_launcher",
-      "package": "com.hotpotgames.happysave.global"
+      "package": "com.my.health.log.protect.heart.blood.sugar"
     },
     {
-      "time": "2026-01-19T17:05:35",
+      "time": "2026-02-26T16:06:19",
       "action": "force_stop_after_impression",
-      "package": "com.hotpotgames.happysave.global",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
       "after_impression": 1,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:05:36",
+      "time": "2026-02-26T16:06:19",
       "action": "restart_by_component",
-      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
       "after_impression": 1,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:06:23",
+      "time": "2026-02-26T16:06:47",
       "action": "force_stop_after_impression",
-      "package": "com.hotpotgames.happysave.global",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
       "after_impression": 2,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:06:24",
+      "time": "2026-02-26T16:06:47",
       "action": "restart_by_component",
-      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
       "after_impression": 2,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:06:24",
+      "time": "2026-02-26T16:07:11",
       "action": "force_stop_after_impression",
-      "package": "com.hotpotgames.happysave.global",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
       "after_impression": 3,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:06:24",
+      "time": "2026-02-26T16:07:11",
       "action": "restart_by_component",
-      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
       "after_impression": 3,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:06:39",
+      "time": "2026-02-26T16:07:11",
       "action": "force_stop_after_impression",
-      "package": "com.hotpotgames.happysave.global",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
       "after_impression": 4,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:06:39",
+      "time": "2026-02-26T16:07:11",
       "action": "restart_by_component",
-      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
       "after_impression": 4,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:07:21",
+      "time": "2026-02-26T16:07:38",
       "action": "force_stop_after_impression",
-      "package": "com.hotpotgames.happysave.global",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
       "after_impression": 5,
       "delay_sec": 10
     },
     {
-      "time": "2026-01-19T17:07:22",
+      "time": "2026-02-26T16:07:38",
       "action": "restart_by_component",
-      "component": "com.hotpotgames.happysave.global/com.app.launcher.activity.LoadingAct",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
       "after_impression": 5,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-02-26T16:08:41",
+      "action": "force_stop_after_impression",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
+      "after_impression": 6,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-02-26T16:08:41",
+      "action": "restart_by_component",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
+      "after_impression": 6,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-02-26T16:09:06",
+      "action": "force_stop_after_impression",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
+      "after_impression": 7,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-02-26T16:09:06",
+      "action": "restart_by_component",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
+      "after_impression": 7,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-02-26T16:09:23",
+      "action": "force_stop_after_impression",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
+      "after_impression": 8,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-02-26T16:09:23",
+      "action": "restart_by_component",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
+      "after_impression": 8,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-02-26T16:09:42",
+      "action": "force_stop_after_impression",
+      "package": "com.my.health.log.protect.heart.blood.sugar",
+      "after_impression": 9,
+      "delay_sec": 10
+    },
+    {
+      "time": "2026-02-26T16:09:42",
+      "action": "restart_by_component",
+      "component": "com.my.health.log.protect.heart.blood.sugar/com.app.launcher.activity.LoadingAct",
+      "after_impression": 9,
       "delay_sec": 10
     }
   ],
   "result": "PASS",
   "fail_reason": null,
   "ad_format_counts": {
-    "Native": 2,
-    "Rewarded": 3,
-    "Interstitial": 1
+    "Interstitial": 8,
+    "Splash": 2
   },
   "ad_platform_counts": {
-    "Admob": 3,
-    "TopOn": 3
-  }
+    "Admob": 8,
+    "TopOn": 2
+  },
+  "firebase_params_count_list": [
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22
+  ],
+  "preclean": {
+    "returncode": 0,
+    "stdout": "🔍 Android 伪启动器检测与清理工具\n\n[+] 正在检测可设为主屏幕的应用...\n[+] 共检测到 3 个 HOME 应用:\n    - com.android.settings\n    - com.google.android.apps.nexuslauncher\n    - com.hotpotgames.happysave.global\n\n⚠️  发现 1 个可疑启动器:\n    ❌ com.hotpotgames.happysave.global\n[+] 正在卸载: com.hotpotgames.happysave.global\n    ✓ 卸载成功\n\n✅ 清理完成！建议重启设备以确保彻底生效。\n\n📦 已卸载的包:\n    - com.hotpotgames.happysave.global\n",
+    "stderr": ""
+  },
+  "package_file": "/Users/admin/Downloads/My Health Log-1.0.6.apk",
+  "package_type": "apk"
 }

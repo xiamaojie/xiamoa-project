@@ -1,3 +1,13 @@
+"""
+Monkey_TesterV2 功能概述（稳定性与异常采集）：
+- 自动检测 adb 设备并解析应用启动 Activity，无法解析时提示手动启动以保证可交互状态
+- 生成并推送 monkey 白名单，仅针对目标包进行事件注入，降低误触系统/其他应用风险
+- 按速度档位配置事件节流与分布比例（触摸/滑动/缩放等），支持长稳或短时强压模式
+- 并行采集崩溃与 ANR：logcat 实时抓取 FATAL/SIGSEGV/Monkey 异常，ANR 支持 traces 或 logcat 兜底
+- 权限不足时自动降级：ANR 读取失败触发异步 bugreport 提取最新 ANR
+- 结束后清理 logcat，输出崩溃/ANR 日志路径及关键字统计，便于回归与对比
+"""
+
 import re
 import subprocess
 import threading
@@ -343,12 +353,12 @@ def run_monkey(duration_minutes, package, log_dir="monkey_log", speed="fast"):
         "--ignore-security-exceptions", "--ignore-native-crashes",
         "--monitor-native-crashes", "-v", "-v", "-v", "10000000",
         "--pct-syskeys", "0",  # 系统按键事件（Home、Back、Volume 等）
-        "--pct-appswitch", "3",  # 应用切换事件
+        "--pct-appswitch", "0",  # 应用切换事件
         "--pct-nav", "0",
-        "--pct-anyevent", "10",  # 模拟其他未明确指定的事件,如输入事件
+        "--pct-anyevent", "0",  # 模拟其他未明确指定的事件,如输入事件
         "--pct-motion", "30",  # 滑动事件
-        "--pct-touch", "55",  # 触摸事件
-        "--pct-pinchzoom", "2",  # 缩放事件
+        "--pct-touch", "65",  # 触摸事件
+        "--pct-pinchzoom", "5",  # 缩放事件
         "--pct-trackball", "0",
         "--pct-majornav", "0",
         "--pct-flip", "0",
@@ -462,10 +472,11 @@ def run_monkey(duration_minutes, package, log_dir="monkey_log", speed="fast"):
 if __name__ == "__main__":
     run_monkey(
         duration_minutes=10,
-        package="com.hotpotgames.happysave.global",
-        # package="com.bright.flashlight.torch.light.your.road",
+        # package="com.hotpotgames.happysave.global",
+        package="com.wallpaper.launcher.live.pure.magic.desktop",
 
         # package="com.phone.finder.funny.device.launcher.locate.clap",
         log_dir="/Users/admin/TestLog/monkey_log/",
         speed="fast"
+        # speed="normal"
     )

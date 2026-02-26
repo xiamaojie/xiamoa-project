@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import json
 import re
 import select
@@ -21,7 +19,7 @@ XIAMAO_PYTHON = str(PROJECT_ROOT / ".venv" / "bin" / "python")
 # ==================================================
 # 时序参数
 # ==================================================
-PROMOTE_WAIT_SEC = 25  # 开启 Firebase 日志后，等待 adjust_Get_Promote 的最长秒数
+PROMOTE_WAIT_SEC = 30  # 开启 Firebase 日志后，等待 adjust_Get_Promote 的最长秒数
 AFTER_HOME_WINDOW_SEC = 60  # 捕获 promote 后回到桌面，用于监控 ad_impression 的窗口秒数
 LOCK_UNLOCK_DELAY_SEC = 0.5  # 触发锁屏/解锁兜底时，两次 KEYCODE_POWER 之间的间隔
 LOCK_UNLOCK_TRIGGER_SEC = 20  # 在桌面停留该秒数后若无新增曝光，则触发锁屏/解锁兜底
@@ -144,9 +142,9 @@ def enable_firebase_debug(package: str) -> None:
     fa_tag = _get_prop("log.tag.FA")
     fa_svc_tag = _get_prop("log.tag.FA-SVC")
     already_on = (
-        current_app == package
-        and fa_tag.strip().upper() == "VERBOSE"
-        and fa_svc_tag.strip().upper() == "VERBOSE"
+            current_app == package
+            and fa_tag.strip().upper() == "VERBOSE"
+            and fa_svc_tag.strip().upper() == "VERBOSE"
     )
     if already_on:
         print("✅ Firebase 日志已开启，跳过重复设置")
@@ -275,10 +273,10 @@ def handle_log_line(line: str, ctx: AppCtx) -> None:
 
 
 def pump_logcat_for_duration(
-    proc: subprocess.Popen[str],
-    duration_sec: float,
-    ctx: AppCtx,
-    stop_when: Optional[Callable[[AppCtx], bool]] = None,
+        proc: subprocess.Popen[str],
+        duration_sec: float,
+        ctx: AppCtx,
+        stop_when: Optional[Callable[[AppCtx], bool]] = None,
 ) -> None:
     if proc.stdout is None:
         return
@@ -324,7 +322,7 @@ def main() -> None:
         "package": None,
         "launch_component": None,
         "launch_component_source": None,  # preparse / start_cmd / none
-        "launch_strategy": None,          # component / monkey
+        "launch_strategy": None,  # component / monkey
         "install_done_time": None,
         "firebase_log_start_time": None,
         "promote": None,
@@ -392,7 +390,7 @@ def main() -> None:
                 write_app_ctx(ctx)
                 print("❌ FAIL：安装完成但未解析到包名")
                 sys.exit(1)
-            
+
             # 允许 component 缺失，后续用 monkey 兜底
             if launch_component is None:
                 ctx["launch_component_source"] = "none"

@@ -13,8 +13,8 @@ log_filename = f"logcat_{timestamp}.logcat"
 log_path = os.path.join(log_dir, log_filename)
 
 # 目标包名
-package_name = "com.hotpotgames.happysave.global"
-# package_name = "com.deama.gold.shortreel"
+# package_name = "com.hotpotgames.happysave.global"
+package_name = "com.wallpaper.launcher.live.pure.magic.desktop"
 
 print(f"📁 日志文件路径：{log_path}")
 
