@@ -1,0 +1,63 @@
+2026-02-24T09:30:08.473Z [gateway] [plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: feishu (/Users/admin/.openclaw/extensions/feishu/index.ts). Set plugins.allow to explicit trusted ids.
+2026-02-24T09:30:10.342Z [gateway] feishu_doc: Registered feishu_doc, feishu_app_scopes
+2026-02-24T09:30:10.343Z [gateway] feishu_wiki: Registered feishu_wiki tool
+2026-02-24T09:30:10.343Z [gateway] feishu_drive: Registered feishu_drive tool
+2026-02-24T09:30:10.344Z [gateway] feishu_perm: perm tool disabled in config (default: false)
+2026-02-24T09:30:10.345Z [gateway] feishu_bitable: Registered 11 bitable tools
+2026-02-24T09:30:10.345Z [gateway] feishu_task: Registered 4 task tools
+2026-02-24T17:30:10.347+08:00 Registered plugin command: /pair (plugin: device-pair)
+2026-02-24T17:30:10.351+08:00 Registered plugin command: /phone (plugin: phone-control)
+2026-02-24T17:30:10.352+08:00 Registered plugin command: /voice (plugin: talk-voice)
+2026-02-24T09:30:10.362Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/admin/.openclaw/canvas)
+2026-02-24T17:30:10.406+08:00 bonjour: starting (hostname=openclaw, instance="admin的MacBook Air (OpenClaw)", gatewayPort=18789, minimal=true)
+2026-02-24T09:30:10.424Z [heartbeat] started
+2026-02-24T09:30:10.425Z [health-monitor] started (interval: 300s, grace: 60s)
+2026-02-24T09:30:10.426Z [gateway] agent model: openai/gpt-5.1-codex
+2026-02-24T09:30:10.426Z [gateway] listening on ws://127.0.0.1:18789, ws://[::1]:18789 (PID 29495)
+2026-02-24T09:30:10.427Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-24.log
+2026-02-24T17:30:10.438+08:00 [info]: [ 'client ready' ]
+2026-02-24T09:30:10.462Z [browser/service] Browser control service ready (profiles=2)
+2026-02-24T09:30:10.730Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-24T09:30:10.756Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-24T09:30:10.760Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-24T09:30:10.768Z [hooks:loader] Registered hook: session-memory -> command:new, command:reset
+2026-02-24T09:30:10.769Z [hooks] loaded 4 internal hook handlers
+2026-02-24T09:30:10.787Z [feishu] starting feishu[default] (mode: websocket)
+2026-02-24T09:30:10.966Z [feishu] feishu[default]: bot open_id resolved: ou_bc2afdab818f4036bda1c27d88f0477e
+2026-02-24T17:30:10.966+08:00 [info]: [ 'event-dispatch is ready' ]
+2026-02-24T09:30:10.967Z [feishu] feishu[default]: starting WebSocket connection...
+2026-02-24T17:30:10.968+08:00 [info]: [
+  '[ws]',
+  'receive events or callbacks through persistent connection only available in self-build & Feishu app, Configured in:\n' +
+    '        Developer Console(开发者后台) \n' +
+    '          ->\n' +
+    '        Events and Callbacks(事件与回调)\n' +
+    '          -> \n' +
+    '        Mode of event/callback subscription(订阅方式)\n' +
+    '          -> \n' +
+    '        Receive events/callbacks through persistent connection(使用 长连接 接收事件/回调)'
+]
+2026-02-24T09:30:10.969Z [feishu] feishu[default]: WebSocket client started
+2026-02-24T17:30:11.330+08:00 [info]: [ '[ws]', 'ws client ready' ]
+2026-02-24T09:30:22.462Z [ws] ← open remoteAddr=127.0.0.1 conn=b75be71b…fa1c
+2026-02-24T09:30:22.983Z [ws] closed before connect conn=b75be71b-cada-4a5d-93ca-b1562475fa1c remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 code=1008 reason=invalid connect params: at /device/nonce: must NOT have fewer than 1 characters
+2026-02-24T09:30:22.986Z [ws] → close code=1008 reason=invalid connect params: at /device/nonce: must NOT have fewer than 1 characters durationMs=1435 cause=invalid-handshake handshake=failed lastFrameType=req lastFrameMethod=connect lastFrameId=a8766a04-987b-41eb-9d0b-419fdb16894b
+2026-02-24T09:30:38.252Z [ws] ← open remoteAddr=127.0.0.1 conn=cb8484f6…c7fe
+2026-02-24T09:30:38.277Z [ws] ← connect client=openclaw-control-ui version=dev mode=webchat clientId=openclaw-control-ui platform=MacIntel auth=token
+2026-02-24T09:30:38.277Z [ws] webchat connected conn=cb8484f6-4d56-4f47-b6c5-671fb52cc7fe remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-24T09:30:38.279Z [ws] → hello-ok methods=89 events=19 presence=2 stateVersion=2
+2026-02-24T09:30:38.282Z [ws] → event health seq=1 clients=1 presenceVersion=2 healthVersion=3
+2026-02-24T09:30:38.288Z [ws] ⇄ res ✓ agent.identity.get 4ms id=51aa6ff6…20d2
+2026-02-24T09:30:38.290Z [ws] ⇄ res ✓ agents.list 1ms id=b3866e2b…9892
+2026-02-24T09:30:38.302Z [ws] ⇄ res ✓ sessions.list 1ms id=0487cd7d…2383
+2026-02-24T09:30:38.307Z [ws] ⇄ res ✓ node.list 15ms id=8d2aa037…1db1
+2026-02-24T09:30:38.307Z [ws] ⇄ res ✓ device.pair.list 16ms id=7e4f4cbe…7368
+2026-02-24T09:30:38.315Z [ws] ⇄ res ✓ chat.history 22ms id=1afc5e15…7f7f
+2026-02-24T09:30:40.401Z [ws] → event tick seq=2 clients=1 dropIfSlow=true
+2026-02-24T09:30:58.068Z [gateway] signal SIGTERM received
+2026-02-24T09:30:58.071Z [gateway] received SIGTERM; shutting down
+2026-02-24T09:30:58.110Z [feishu] feishu[default]: abort signal received, stopping
+2026-02-24T09:30:58.113Z [gmail-watcher] gmail watcher stopped
+2026-02-24T09:30:58.116Z [ws] → event shutdown seq=3 clients=1
+2026-02-24T09:30:58.126Z [ws] webchat disconnected code=1012 reason=service restart conn=cb8484f6-4d56-4f47-b6c5-671fb52cc7fe
+2026-02-24T09:30:58.129Z [ws] → close code=1012 reason=service restart durationMs=19878 handshake=connected lastFrameType=req lastFrameMethod=sessions.list lastFrameId=0487cd7d-2154-4251-8f25-0ae1805e2383
