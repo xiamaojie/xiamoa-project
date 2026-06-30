@@ -1,1 +1,1 @@
-com.wallpaper.launcher.live.pure.magic.desktop
+com.hotpotgames.happysave.global

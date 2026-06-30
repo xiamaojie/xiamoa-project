@@ -1,6 +1,7 @@
 """模拟买量，测试手机上没有安装飞书的时候，可以用"""
 import os
 import subprocess
+from urllib.parse import quote
 
 
 def push_file_to_device(local_file_path, remote_dir="/sdcard/Download/"):
@@ -27,10 +28,11 @@ def push_file_to_device(local_file_path, remote_dir="/sdcard/Download/"):
 
     # 发送媒体库刷新广播
     print("🔄 正在刷新媒体库...")
+    media_uri = f"file://{quote(remote_path, safe='/')}"
     broadcast_cmd = [
         "adb", "shell", "am", "broadcast",
         "-a", "android.intent.action.MEDIA_SCANNER_SCAN_FILE",
-        "-d", f"file://{remote_path}"
+        "-d", media_uri
     ]
     result = subprocess.run(broadcast_cmd, capture_output=True, text=True)
     print(result.stdout)
@@ -43,5 +45,5 @@ def push_file_to_device(local_file_path, remote_dir="/sdcard/Download/"):
 
 if __name__ == "__main__":
     # pc_file_path = "/Users/admin/Downloads/配置文件.yaml"
-    pc_file_path = "/Users/admin/Downloads/MyOdoSdk 音频广告接入文档.pdf"
+    pc_file_path = "/Users/admin/Downloads/File Recover Fast & Safe-1.0.5.apk"
     push_file_to_device(pc_file_path)

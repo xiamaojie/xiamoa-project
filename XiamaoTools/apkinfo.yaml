@@ -1,12 +1,12 @@
 com.deama.gold.shortreel:
-  version: 1.0.5
-  versionCode: 105
+  version: 1.1.6
+  versionCode: 116
 com.earth.explorer.launcher.live.map.satelliteview:
-  version: 1.1.2
-  versionCode: 16
+  version: 1.2.1
+  versionCode: 25
 com.world.explorer.live.earth.map:
-  version: 1.0.2
-  versionCode: 4
+  version: 1.0.5
+  versionCode: 7
 com.live.earth.camera.map.satellite.view:
   version: 1.0.0
   versionCode: 2
@@ -17,8 +17,8 @@ com.aidivination.lunar:
   version: 1.0.0
   versionCode: 1
 com.hotpotgames.happysave.global:
-  version: 1.0.0
-  versionCode: 1
+  version: 1.0.2
+  versionCode: 3
 com.github.metacubex.clash.meta:
   version: 2.11.18.Meta
   versionCode: 211018
@@ -29,8 +29,8 @@ com.alibaba.aliyun:
   version: 4.20.1
   versionCode: 18021149
 com.shimeji.party.anime.screen.pets.friends:
-  version: 1.0.4
-  versionCode: 4
+  version: 1.0.5
+  versionCode: 5
 com.locate.my.friends.family.map.gps:
   version: 1.0.0
   versionCode: 1
@@ -38,20 +38,20 @@ com.sniper.master.free.game.vnksa.puzzle:
   version: 1.2.0
   versionCode: 10000
 com.bright.flashlight.torch.light.your.road:
-  version: 1.0.2
-  versionCode: 3
+  version: 1.0.5
+  versionCode: 6
 com.pdf.reader.file.manager.imagetopdf:
-  version: 1.0.8
-  versionCode: 9
+  version: 1.1.6
+  versionCode: 17
 com.earthmap.camera.satellite.pro:
   version: 1.0.0
   versionCode: 1
 com.my.health.log.protect.heart.blood.sugar:
-  version: 1.0.6
-  versionCode: 7
+  version: 1.0.7
+  versionCode: 8
 com.fast.video.image.recover.data.easy.back:
-  version: 1.0.1
-  versionCode: 2
+  version: 1.3.1
+  versionCode: 131
 com.photo.data.video.file.recovery:
   version: 1.0.3
   versionCode: 4
@@ -59,17 +59,95 @@ com.pdf.reader.filereader.launcher:
   version: 1.0.5
   versionCode: 9
 com.safe.data.recovery.protect.your.data.video.image:
-  version: 1.0.2
-  versionCode: 3
+  version: 1.0.4
+  versionCode: 7
 com.shimeji.live.anime.screen.pets:
   version: 1.0.0
   versionCode: 1
 com.shimeji.planet.anime.screen.pets:
-  version: 1.0.0
-  versionCode: 1
+  version: 1.0.4
+  versionCode: 5
 com.wallpaper.launcher.live.pure.magic.desktop:
-  version: 1.1.1
-  versionCode: 13
+  version: 1.1.5
+  versionCode: 18
 com.DefaultCompany.ArrowAndArrow:
   version: 1.0.0
   versionCode: 2
+com.track.phone.locate.device.clap.hand:
+  version: 1.0.6
+  versionCode: 8
+com.linuxmintusr.deviceinfo:
+  version: 1.0.0
+  versionCode: 2
+com.ultra.bright.flashlight.torch:
+  version: 1.0.2
+  versionCode: 3
+com.phone.clap.finder.locate.device:
+  version: 1.0.1
+  versionCode: 2
+com.find.phone.clap.launcher.whistle.locator:
+  version: 1.0.9
+  versionCode: 10
+com.locate.your.device.find.phone.by.clap:
+  version: 1.0.9
+  versionCode: 10
+com.flashlight.nova.launcher.zoom.version.light.dark:
+  version: 1.0.7
+  versionCode: 8
+com.wallpaper.spark.launcher.live.flow.magic:
+  version: 1.1.4
+  versionCode: 15
+com.jogo.arrowsandarrows:
+  version: 3.0.5
+  versionCode: 29
+com.clap.find.locator.locator:
+  version: 1.0.5
+  versionCode: 7
+com.clap.sound.device.finder:
+  version: 1.0.4
+  versionCode: 5
+com.wifi.analyzer.check.speed:
+  version: 1.0.7
+  versionCode: 10
+com.pdf.scanner.viewer.reader.edit.pro:
+  version: 1.1.1
+  versionCode: 12
+com.artful.walls.launcher.ai.wonderful.live.lockscreen:
+  version: 1.1.2
+  versionCode: 14
+com.palm.ai.decode.destiny.soul.futurelines.handline:
+  version: 1.0.1
+  versionCode: 6
+com.file.recover.fast.photoes.video.image:
+  version: 1.0.5
+  versionCode: 6
+com.pdf.zenith.manager.scan.imagetopdf:
+  version: 1.0.7
+  versionCode: 7
+com.health.tracker.heart.blood.pressure.hub:
+  version: 1.0.4
+  versionCode: 4
+com.filmgrain.cine.video.player.tv.watch.online:
+  version: 1.0.2
+  versionCode: 4
+com.recover.my.files.restore.back.photo.videos:
+  version: 1.0.1
+  versionCode: 3
+com.ocean.match.puzzle.game:
+  version: 1.0.3
+  versionCode: 3
+com.find.phone.by.clap.locate.your.device:
+  version: 1.0.0
+  versionCode: 1
+com.lumina.flashlight.home:
+  version: 1.0.2
+  versionCode: 3
+com.live.earth.map.real.world.satelliteview.earthmap:
+  version: 1.0.2
+  versionCode: 4
+com.shimeji.go.anime.screen.pets:
+  version: 1.0.4
+  versionCode: 6
+com.nova.torch.bright.flashlight.dark:
+  version: 1.0.1
+  versionCode: 4

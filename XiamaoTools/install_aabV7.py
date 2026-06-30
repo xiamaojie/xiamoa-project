@@ -711,8 +711,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="📦 使用 bundletool 安装 AAB 到 Android 设备")
     # 不指定路径安装
     parser.add_argument("--aab", help="AAB 文件路径（可选）", default=None)
-    # 指定路径安装
-    # parser.add_argument("--aab", help="AAB 文件路径（可选）", default="/Users/admin/Downloads/Clap&Locate-1.0.0-debug.aab")
+    # 指定路径安装，这是游戏路径的包
+    # parser.add_argument("--aab", help="AAB 文件路径（可选）", default="/Users/admin/Downloads/ArrowsanDarrows-release.aab")
     parser.add_argument("--directory", help="搜索 AAB 的目录（默认: /Users/admin/Downloads）",
                         default="/Users/admin/Downloads")
     parser.add_argument("--keystore", help="签名 keystore 文件（可选）", default=None)
@@ -721,7 +721,7 @@ if __name__ == "__main__":
     parser.add_argument("--key-pass", help="key 密码（可选）", default=None)
     # 指定签名文件路径
     # parser.add_argument("--keystore", help="签名 keystore 文件（可选）",
-    #                     default=r"/Users/admin/Downloads/PalmDebug.jks")
+    #                     default=r"/Users/admin/Downloads/DramaGold-1.0.7-release.aab")
     # parser.add_argument("--ks-key-alias", help="keystore 别名（可选）", default="PalmDebug")
     # parser.add_argument("--ks-pass", help="keystore 密码（可选）", default="PalmDebug")
     # parser.add_argument("--key-pass", help="key 密码（可选）", default="PalmDebug")

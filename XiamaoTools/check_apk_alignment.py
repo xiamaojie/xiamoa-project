@@ -86,5 +86,5 @@ def scan_apk(apk_path):
 
 if __name__ == "__main__":
     # apk_file_path = r"/Users/admin/Downloads/Mixoo_v2.2.1.apk"
-    apk_file_path = r"/Users/admin/Downloads/ArtfulWallsLauncher-release.apk"
+    apk_file_path = r"/Users/admin/Downloads/Track Phone By Clap -1.0.5.apk"
     scan_apk(apk_file_path)

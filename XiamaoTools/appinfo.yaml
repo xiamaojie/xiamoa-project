@@ -1,15 +1,15 @@
 com.hotpotgames.happysave.global:
-  version: 1.0.0
-  versionCode: 1
+  version: 1.0.7
+  versionCode: 10
 com.translate.launcher.pro.photo.translator.text.camera:
   version: 1.0.1
   versionCode: 3
 com.earth.explorer.launcher.live.map.satelliteview:
-  version: 1.0.8
-  versionCode: 11
+  version: 1.1.8
+  versionCode: 22
 com.deama.gold.shortreel:
-  version: 1.0.5
-  versionCode: 105
+  version: 1.1.6
+  versionCode: 116
 gesturelockscreen.patternlockscreen.lock.screen.signaturelockscreen:
   version: 1.1.4
   versionCode: 24
@@ -59,8 +59,59 @@ com.quick.flashlight.magnifier.pro.sos:
   version: 1.0.0
   versionCode: 1
 com.jogo.arrowsandarrows:
-  version: 1.0.0
-  versionCode: 1
+  version: 3.0.5
+  versionCode: 28
 com.heart.check.health.fitness.protect.your.health:
   version: 1.0.6
   versionCode: 7
+com.phone.clap.finder.locate.device:
+  version: 1.0.7
+  versionCode: 8
+com.daily.blood.sugar.track.diabetes:
+  version: 1.0.5
+  versionCode: 6
+com.pdf.scanner.viewer.reader.edit.pro:
+  version: 1.0.9
+  versionCode: 10
+com.hoshi.ai.companion.personal.app:
+  version: 1.5.3
+  versionCode: 153
+com.find.phone.clap.launcher.whistle.locator:
+  version: 1.1.0
+  versionCode: 11
+com.live.earth.map.satelliteview:
+  version: 1.0.7
+  versionCode: 9
+com.locator.device.safe:
+  version: 1.0.0
+  versionCode: 101
+com.clap.find.locator.locator:
+  version: 1.0.3
+  versionCode: 5
+com.health.heart.monitor.track.launcher:
+  version: 1.1.9
+  versionCode: 21
+com.gps.locate.your.family.position.tracker.phone.locator:
+  version: 1.0.4
+  versionCode: 6
+com.file.recover.fast.photoes.video.image:
+  version: 1.0.2
+  versionCode: 3
+com.filmgrain.cine.video.player.tv.watch.online:
+  version: 1.0.2
+  versionCode: 4
+com.data.restore.recover.easily:
+  version: 1.0.4
+  versionCode: 5
+com.find.phone.by.clap.locate.your.device:
+  version: 1.0.0
+  versionCode: 1
+com.linuxmintusr.deviceinfo:
+  version: 1.0.0
+  versionCode: 1
+com.ocean.match.puzzle.game:
+  version: 1.0.3
+  versionCode: 3
+com.dramawin.lucky.shorts:
+  version: 1.0.0
+  versionCode: 1

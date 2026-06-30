@@ -471,9 +471,9 @@ def run_monkey(duration_minutes, package, log_dir="monkey_log", speed="fast"):
 
 if __name__ == "__main__":
     run_monkey(
-        duration_minutes=10,
-        # package="com.hotpotgames.happysave.global",
-        package="com.wallpaper.launcher.live.pure.magic.desktop",
+        duration_minutes=7,
+        package="com.hotpotgames.happysave.global",
+        # package="com.shimeji.party.anime.screen.pets.friends",
 
         # package="com.phone.finder.funny.device.launcher.locate.clap",
         log_dir="/Users/admin/TestLog/monkey_log/",
