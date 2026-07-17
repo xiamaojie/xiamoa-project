@@ -1,0 +1,813 @@
+{
+  "artifact_path": "/Users/admin/Downloads/PDF Editor：Scanner & Reader-1.0.4.apk",
+  "package_name": "com.pdf.scanner.editor.reader.office",
+  "app_name": "PDF Editor",
+  "version_name": "1.0.4",
+  "version_code": "4",
+  "test_mode": "core_regression",
+  "app_category": "找手机/声音型 Launcher",
+  "classification_confidence": "中",
+  "classification_diagnostics": {
+    "suppressed_scores": {
+      "wifi_tool_launcher": 9,
+      "health_cleaner_launcher": 8,
+      "flashlight_tool_launcher": 6,
+      "widget_tool_launcher": 7,
+      "theme_personalization_launcher": 6,
+      "earth_map_places_launcher": 5,
+      "wallpaper_launcher": 7
+    },
+    "support_reasons": {
+      "clap_sound_launcher": [
+        "coherent_tokens:clap+sound"
+      ],
+      "wifi_tool_launcher": [],
+      "health_cleaner_launcher": [],
+      "flashlight_tool_launcher": [],
+      "widget_tool_launcher": [],
+      "theme_personalization_launcher": [],
+      "earth_map_places_launcher": [],
+      "wallpaper_launcher": []
+    },
+    "noise_suppressed_keywords": [
+      "download",
+      "network",
+      "overlay",
+      "password",
+      "speed",
+      "theme",
+      "upload",
+      "wallpaper",
+      "widget",
+      "wifi"
+    ]
+  },
+  "noise_suppressed_keywords": [
+    "download",
+    "network",
+    "overlay",
+    "password",
+    "speed",
+    "theme",
+    "upload",
+    "wallpaper",
+    "widget",
+    "wifi"
+  ],
+  "strategy_summary": "优先测试声音卡片、播放、时长切换、Apply、闪光/震动/总开关，以及广告和权限链路。",
+  "matched_keywords": [
+    "apply",
+    "battery",
+    "bright",
+    "cache",
+    "camera",
+    "clap",
+    "clean",
+    "cleaner",
+    "clock",
+    "download",
+    "flash",
+    "font",
+    "health",
+    "icon",
+    "junk",
+    "light",
+    "live",
+    "network",
+    "overlay",
+    "password",
+    "process",
+    "scan",
+    "sound",
+    "speed",
+    "style",
+    "theme",
+    "tools",
+    "translate",
+    "upload",
+    "wallpaper",
+    "weather",
+    "widget",
+    "wifi"
+  ],
+  "reverse_feature_catalog": {
+    "artifact_path": "/Users/admin/Downloads/PDF Editor：Scanner & Reader-1.0.4.apk",
+    "scan_mode": "fast_plus_enhanced_aapt_dex_strings",
+    "feature_candidates": [],
+    "ad_sdks": [
+      {
+        "name": "Mintegral/MBridge",
+        "marker": "mbridge"
+      },
+      {
+        "name": "Admob",
+        "marker": "admob"
+      },
+      {
+        "name": "TopOn",
+        "marker": "topon"
+      },
+      {
+        "name": "Pangle",
+        "marker": "pangle"
+      },
+      {
+        "name": "Unity Ads",
+        "marker": "unityads"
+      }
+    ],
+    "resources": {
+      "layouts": [],
+      "resource_like_names": [],
+      "value_files": []
+    },
+    "candidate_count": 0,
+    "enhanced_reverse": {
+      "executed": true,
+      "tools": {
+        "aapt_badging": {
+          "status": "success",
+          "returncode": 0,
+          "stderr": ""
+        },
+        "aapt_permissions": {
+          "status": "success",
+          "returncode": 0,
+          "stderr": ""
+        },
+        "dex_strings_tool": {
+          "status": "success",
+          "chars": 300000
+        }
+      },
+      "deep_reverse_default": "not_executed",
+      "deep_reverse_note": "jadx/apktool are not run by default; use only when explicitly requested or when fast+enhanced remains insufficient."
+    },
+    "rejected_feature_candidate_count": 6
+  },
+  "feature_graph": {
+    "feature_count": 16,
+    "features": {
+      "进入声音卡片详情页": {
+        "feature_id": "进入声音卡片详情页",
+        "display_name": "进入声音卡片详情页",
+        "aliases": [
+          "进入声音卡片详情页"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "围绕 进入声音卡片详情页 执行本轮主闭环验证"
+        ]
+      },
+      "点击play或apply": {
+        "feature_id": "点击play或apply",
+        "display_name": "点击 Play 或 Apply",
+        "aliases": [
+          "点击 Play 或 Apply"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "围绕 点击 Play 或 Apply 执行本轮主闭环验证"
+        ]
+      },
+      "切换时长或模式": {
+        "feature_id": "切换时长或模式",
+        "display_name": "切换时长或模式",
+        "aliases": [
+          "切换时长或模式"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "围绕 切换时长或模式 执行本轮主闭环验证"
+        ]
+      },
+      "执行停止或关闭动作": {
+        "feature_id": "执行停止或关闭动作",
+        "display_name": "执行停止或关闭动作",
+        "aliases": [
+          "执行停止或关闭动作"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "围绕 执行停止或关闭动作 执行本轮主闭环验证"
+        ]
+      },
+      "点击声音卡片": {
+        "feature_id": "点击声音卡片",
+        "display_name": "点击声音卡片",
+        "aliases": [
+          "点击声音卡片"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "优先执行：点击声音卡片"
+        ]
+      },
+      "点击play": {
+        "feature_id": "点击play",
+        "display_name": "点击 Play",
+        "aliases": [
+          "点击 Play"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "优先执行：点击 Play"
+        ]
+      },
+      "切换5s15s30s1m": {
+        "feature_id": "切换5s15s30s1m",
+        "display_name": "切换 5s/15s/30s/1m",
+        "aliases": [
+          "切换 5s/15s/30s/1m"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "优先执行：切换 5s/15s/30s/1m"
+        ]
+      },
+      "点击apply": {
+        "feature_id": "点击apply",
+        "display_name": "点击 Apply",
+        "aliases": [
+          "点击 Apply"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "优先执行：点击 Apply"
+        ]
+      },
+      "测试flashvibonoff": {
+        "feature_id": "测试flashvibonoff",
+        "display_name": "测试 flash/vib/on-off",
+        "aliases": [
+          "测试 flash/vib/on-off"
+        ],
+        "priority": "P0",
+        "evidence": [],
+        "test_objectives": [
+          "优先执行：测试 flash/vib/on-off"
+        ]
+      },
+      "guideoneactivity": {
+        "feature_id": "guideoneactivity",
+        "display_name": "Guide One Activity",
+        "aliases": [
+          "Guide One Activity"
+        ],
+        "priority": "P1",
+        "evidence": [],
+        "test_objectives": [
+          "结合当前产品语义重点验证：Guide One Activity"
+        ]
+      },
+      "声音卡片": {
+        "feature_id": "声音卡片",
+        "display_name": "声音卡片",
+        "aliases": [
+          "声音卡片"
+        ],
+        "priority": "P2",
+        "evidence": [],
+        "test_objectives": [
+          "在主闭环完成后扩展验证：声音卡片"
+        ]
+      },
+      "详情页": {
+        "feature_id": "详情页",
+        "display_name": "详情页",
+        "aliases": [
+          "详情页"
+        ],
+        "priority": "P2",
+        "evidence": [],
+        "test_objectives": [
+          "在主闭环完成后扩展验证：详情页"
+        ]
+      },
+      "播放按钮": {
+        "feature_id": "播放按钮",
+        "display_name": "播放按钮",
+        "aliases": [
+          "播放按钮"
+        ],
+        "priority": "P2",
+        "evidence": [],
+        "test_objectives": [
+          "在主闭环完成后扩展验证：播放按钮"
+        ]
+      },
+      "apply按钮": {
+        "feature_id": "apply按钮",
+        "display_name": "Apply 按钮",
+        "aliases": [
+          "Apply 按钮"
+        ],
+        "priority": "P2",
+        "evidence": [],
+        "test_objectives": [
+          "在主闭环完成后扩展验证：Apply 按钮"
+        ]
+      },
+      "闪光开关": {
+        "feature_id": "闪光开关",
+        "display_name": "闪光开关",
+        "aliases": [
+          "闪光开关"
+        ],
+        "priority": "P2",
+        "evidence": [],
+        "test_objectives": [
+          "在主闭环完成后扩展验证：闪光开关"
+        ]
+      },
+      "震动开关": {
+        "feature_id": "震动开关",
+        "display_name": "震动开关",
+        "aliases": [
+          "震动开关"
+        ],
+        "priority": "P2",
+        "evidence": [],
+        "test_objectives": [
+          "在主闭环完成后扩展验证：震动开关"
+        ]
+      }
+    }
+  },
+  "reverse_parse_enhancement": {
+    "should_enhance": true,
+    "triggers": [
+      "feature_candidate_count_lt_5"
+    ],
+    "fast_metrics": {
+      "feature_candidate_count": 0,
+      "classification_confidence": "中",
+      "p0_case_count": 12,
+      "high_risk_permission_without_feature_mapping_count": 0,
+      "ad_sdk_count": 5,
+      "ad_trigger_candidate_count": 2
+    },
+    "policy": {
+      "fast_parse_first": true,
+      "enhanced_parse_auto": true,
+      "deep_parse_default": "not_executed",
+      "deep_parse_requires": "explicit_user_request_or_fast_plus_enhanced_still_insufficient"
+    },
+    "executed": true,
+    "enhanced_metrics": {
+      "feature_candidate_count": 0,
+      "scan_mode": "fast_plus_enhanced_aapt_dex_strings"
+    }
+  },
+  "category_scores": {
+    "wallpaper_launcher": 1,
+    "health_cleaner_launcher": 1,
+    "clap_sound_launcher": 6,
+    "earth_map_places_launcher": 1,
+    "wifi_tool_launcher": 1,
+    "flashlight_tool_launcher": 1,
+    "theme_personalization_launcher": 1,
+    "widget_tool_launcher": 1
+  },
+  "priority_actions": [
+    "点击声音卡片",
+    "点击 Play",
+    "切换 5s/15s/30s/1m",
+    "点击 Apply",
+    "测试 flash/vib/on-off"
+  ],
+  "core_negative_screen_targets": [
+    "声音卡片",
+    "详情页",
+    "播放按钮",
+    "Apply 按钮",
+    "闪光开关",
+    "震动开关"
+  ],
+  "manifest_permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_WALLPAPER_INTERNAL",
+    "android.permission.SET_WALLPAPER",
+    "android.permission.REQUEST_DELETE_PACKAGES",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.MANAGE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.VIBRATE",
+    "android.permission.READ_BASIC_PHONE_STATE",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.BIND_JOB_SERVICE",
+    "android.permission.DUMP"
+  ],
+  "permission_diagnostics": {
+    "manifest_permissions": [
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.READ_WALLPAPER_INTERNAL",
+      "android.permission.SET_WALLPAPER",
+      "android.permission.REQUEST_DELETE_PACKAGES",
+      "android.permission.INTERNET",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CAMERA",
+      "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.VIBRATE",
+      "android.permission.READ_BASIC_PHONE_STATE",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.BIND_JOB_SERVICE",
+      "android.permission.DUMP"
+    ],
+    "special_permissions": [
+      "manifest:MANAGE_EXTERNAL_STORAGE",
+      "manifest:CAMERA"
+    ],
+    "business_guidance_permissions": []
+  },
+  "expected_permissions": [
+    "所有文件访问",
+    "相机"
+  ],
+  "high_risk_permissions": [
+    {
+      "permission": "MANAGE_EXTERNAL_STORAGE",
+      "label": "所有文件访问",
+      "risk_level": "disabled",
+      "likely_feature": "文件扫描/文件管理/导入导出",
+      "likely_feature_source": "permission_registry",
+      "priority_candidate": "P0候选",
+      "coverage_required_reason": "访问所有共享存储内容，需充分说明必要性并通过 Google Play 特殊审核",
+      "source_list": "Disable_permission_list",
+      "source_kind": "manifest_permission",
+      "manifest_permission": "android.permission.MANAGE_EXTERNAL_STORAGE"
+    },
+    {
+      "permission": "CAMERA",
+      "label": "相机",
+      "risk_level": "high",
+      "likely_feature": "拍照/扫描/相机预览/放大镜",
+      "likely_feature_source": "permission_registry",
+      "priority_candidate": "P0候选",
+      "coverage_required_reason": "摄像头访问；必须符合最小权限原则并对应可见核心功能",
+      "source_list": "List_of_high_risk_permissions",
+      "source_kind": "manifest_permission",
+      "manifest_permission": "android.permission.CAMERA"
+    }
+  ],
+  "recommended_test_order": [
+    "com.pdf.scanner.editor.reader.office.LoadingActivity",
+    "com.xm.lib_base.HomeActivity",
+    "com.pdf.scanner.editor.reader.office.GuideOneActivity",
+    "com.pdf.scanner.editor.reader.office.GuideTwoActivity",
+    "com.imagetopdf.scanner.reader.viewer.free.ui.activity.AntsActivityPdf",
+    "com.imagetopdf.scanner.reader.viewer.free.ui.activity.CaPreviewActivityPdf",
+    "com.imagetopdf.scanner.reader.viewer.free.ui.activity.ColetedActivityPdf",
+    "com.imagetopdf.scanner.reader.viewer.free.ui.activity.FilePdfAllActivityPdf"
+  ],
+  "semantic_top_pages": [
+    "Launcher 首页",
+    "Guide One Activity",
+    "Guide Two Activity"
+  ],
+  "semantic_focus_areas": [
+    "点击声音卡片",
+    "点击 Play",
+    "切换 5s/15s/30s/1m",
+    "点击 Apply",
+    "测试 flash/vib/on-off"
+  ],
+  "semantic_priority_summary": "优先围绕 找手机/声音型 Launcher 的核心闭环，先覆盖 点击声音卡片、点击 Play、切换 5s/15s/30s/1m 等 5 项。",
+  "semantic_confidence": "高",
+  "closure_plan": {
+    "main_business_closure": [
+      "进入声音卡片详情页",
+      "点击 Play 或 Apply",
+      "切换时长或模式",
+      "返回桌面或业务页观察告警状态",
+      "执行停止或关闭动作"
+    ],
+    "ad_validation_closure": [
+      "进入业务入口或广告触发动作",
+      "识别广告类型与广告位",
+      "关闭广告并确认回到业务页",
+      "校验 ad_impression 或相关埋点"
+    ],
+    "permission_closure": [
+      "识别权限类型",
+      "仅处理与主链路直接相关的权限",
+      "返回业务页确认功能恢复"
+    ],
+    "analytics_closure": [
+      "开启 Firebase Debug 监听",
+      "记录目标事件和次数",
+      "将页面动作与埋点事件做对账"
+    ],
+    "return_recovery_closure": [
+      "从二级页返回业务页",
+      "按 Home 回到默认桌面",
+      "确认 Launcher 状态保持"
+    ],
+    "closure_priority_order": [
+      "main_business_closure",
+      "ad_validation_closure",
+      "analytics_closure",
+      "permission_closure",
+      "return_recovery_closure"
+    ],
+    "static_predicted_closure": [
+      "进入声音卡片详情页",
+      "点击 Play 或 Apply",
+      "切换时长或模式",
+      "返回桌面或业务页观察告警状态",
+      "执行停止或关闭动作"
+    ],
+    "static_predicted_success_signals": [
+      "声音或告警模式被成功触发",
+      "时长/模式切换后界面状态变化",
+      "停止动作后告警状态可结束"
+    ],
+    "semantic_priority_summary": "优先围绕 找手机/声音型 Launcher 的核心闭环，先覆盖 点击声音卡片、点击 Play、切换 5s/15s/30s/1m 等 5 项。"
+  },
+  "ad_validation_plan": {
+    "ad_is_core_business": true,
+    "ad_validation_dimensions": [
+      "展示",
+      "关闭",
+      "回流",
+      "埋点"
+    ],
+    "ad_trigger_actions": [
+      "声音详情页点击 Apply",
+      "开启告警/提示音后返回桌面"
+    ],
+    "ad_expected_types": [
+      "开屏广告",
+      "插屏广告",
+      "激励广告",
+      "Native 广告",
+      "Banner 广告"
+    ],
+    "ad_expected_event": "ad_impression"
+  },
+  "permission_plan": {
+    "runtime_permissions": [
+      "所有文件访问",
+      "相机"
+    ],
+    "high_risk_permissions": [
+      {
+        "permission": "MANAGE_EXTERNAL_STORAGE",
+        "label": "所有文件访问",
+        "risk_level": "disabled",
+        "likely_feature": "文件扫描/文件管理/导入导出",
+        "likely_feature_source": "permission_registry",
+        "priority_candidate": "P0候选",
+        "coverage_required_reason": "访问所有共享存储内容，需充分说明必要性并通过 Google Play 特殊审核",
+        "source_list": "Disable_permission_list",
+        "source_kind": "manifest_permission",
+        "manifest_permission": "android.permission.MANAGE_EXTERNAL_STORAGE"
+      },
+      {
+        "permission": "CAMERA",
+        "label": "相机",
+        "risk_level": "high",
+        "likely_feature": "拍照/扫描/相机预览/放大镜",
+        "likely_feature_source": "permission_registry",
+        "priority_candidate": "P0候选",
+        "coverage_required_reason": "摄像头访问；必须符合最小权限原则并对应可见核心功能",
+        "source_list": "List_of_high_risk_permissions",
+        "source_kind": "manifest_permission",
+        "manifest_permission": "android.permission.CAMERA"
+      }
+    ],
+    "special_permissions": [
+      "默认桌面",
+      "悬浮窗权限",
+      "通知使用权",
+      "辅助功能权限",
+      "修改系统设置权限",
+      "忽略电池优化"
+    ],
+    "permission_result_levels": [
+      "已验证生效",
+      "仅验证到系统页",
+      "错误跳转页",
+      "未覆盖"
+    ]
+  },
+  "static_test_cases": [
+    {
+      "priority": "P0",
+      "feature_id": "进入声音卡片详情页",
+      "case_type": "主业务闭环",
+      "test_point": "进入声音卡片详情页",
+      "step_hint": "围绕 进入声音卡片详情页 执行本轮主闭环验证",
+      "success_signal": "声音或告警模式被成功触发"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "点击play或apply",
+      "case_type": "主业务闭环",
+      "test_point": "点击 Play 或 Apply",
+      "step_hint": "围绕 点击 Play 或 Apply 执行本轮主闭环验证",
+      "success_signal": "时长/模式切换后界面状态变化"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "切换时长或模式",
+      "case_type": "主业务闭环",
+      "test_point": "切换时长或模式",
+      "step_hint": "围绕 切换时长或模式 执行本轮主闭环验证",
+      "success_signal": "停止动作后告警状态可结束"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "返回桌面或业务页观察告警状态",
+      "case_type": "返回恢复闭环",
+      "test_point": "返回桌面或业务页观察告警状态",
+      "step_hint": "围绕 返回桌面或业务页观察告警状态 执行本轮主闭环验证",
+      "success_signal": ""
+    },
+    {
+      "priority": "P0",
+      "feature_id": "执行停止或关闭动作",
+      "case_type": "主业务闭环",
+      "test_point": "执行停止或关闭动作",
+      "step_hint": "围绕 执行停止或关闭动作 执行本轮主闭环验证",
+      "success_signal": ""
+    },
+    {
+      "priority": "P0",
+      "feature_id": "点击声音卡片",
+      "case_type": "主业务闭环",
+      "test_point": "点击声音卡片",
+      "step_hint": "优先执行：点击声音卡片",
+      "success_signal": "主业务页面或关键结果产生预期变化"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "点击play",
+      "case_type": "主业务闭环",
+      "test_point": "点击 Play",
+      "step_hint": "优先执行：点击 Play",
+      "success_signal": "主业务页面或关键结果产生预期变化"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "切换5s15s30s1m",
+      "case_type": "主业务闭环",
+      "test_point": "切换 5s/15s/30s/1m",
+      "step_hint": "优先执行：切换 5s/15s/30s/1m",
+      "success_signal": "主业务页面或关键结果产生预期变化"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "点击apply",
+      "case_type": "主业务闭环",
+      "test_point": "点击 Apply",
+      "step_hint": "优先执行：点击 Apply",
+      "success_signal": "主业务页面或关键结果产生预期变化"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "测试flashvibonoff",
+      "case_type": "主业务闭环",
+      "test_point": "测试 flash/vib/on-off",
+      "step_hint": "优先执行：测试 flash/vib/on-off",
+      "success_signal": "主业务页面或关键结果产生预期变化"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "permission_所有文件访问",
+      "case_type": "权限闭环",
+      "test_point": "高风险权限覆盖：所有文件访问",
+      "step_hint": "基于 Disable_permission_list 的 MANAGE_EXTERNAL_STORAGE，围绕 文件扫描/文件管理/导入导出 查找并执行对应功能入口，记录授权/拒绝/未触发证据",
+      "success_signal": "访问所有共享存储内容，需充分说明必要性并通过 Google Play 特殊审核"
+    },
+    {
+      "priority": "P0",
+      "feature_id": "permission_相机",
+      "case_type": "权限闭环",
+      "test_point": "高风险权限覆盖：相机",
+      "step_hint": "基于 List_of_high_risk_permissions 的 CAMERA，围绕 拍照/扫描/相机预览/放大镜 查找并执行对应功能入口，记录授权/拒绝/未触发证据",
+      "success_signal": "摄像头访问；必须符合最小权限原则并对应可见核心功能"
+    },
+    {
+      "priority": "P1",
+      "feature_id": "analytics_adimpression",
+      "case_type": "埋点闭环",
+      "test_point": "埋点验证：ad_impression",
+      "step_hint": "监听 ad_impression 并与广告触发动作对账",
+      "success_signal": "事件次数、广告平台、广告格式和参数数量符合预期"
+    },
+    {
+      "priority": "P1",
+      "feature_id": "return_recovery",
+      "case_type": "返回恢复闭环",
+      "test_point": "返回恢复链路",
+      "step_hint": "从二级页返回业务页，再按 Home 验证默认桌面保持",
+      "success_signal": "返回链路正常，Launcher 状态保持"
+    },
+    {
+      "priority": "P1",
+      "feature_id": "guideoneactivity",
+      "case_type": "主业务闭环",
+      "test_point": "Guide One Activity",
+      "step_hint": "结合当前产品语义重点验证：Guide One Activity",
+      "success_signal": "业务页可达且结果可验证"
+    },
+    {
+      "priority": "P2",
+      "feature_id": "声音卡片",
+      "case_type": "主业务闭环",
+      "test_point": "声音卡片",
+      "step_hint": "在主闭环完成后扩展验证：声音卡片",
+      "success_signal": "入口可达，必要时进入二级页"
+    },
+    {
+      "priority": "P2",
+      "feature_id": "详情页",
+      "case_type": "主业务闭环",
+      "test_point": "详情页",
+      "step_hint": "在主闭环完成后扩展验证：详情页",
+      "success_signal": "入口可达，必要时进入二级页"
+    },
+    {
+      "priority": "P2",
+      "feature_id": "播放按钮",
+      "case_type": "主业务闭环",
+      "test_point": "播放按钮",
+      "step_hint": "在主闭环完成后扩展验证：播放按钮",
+      "success_signal": "入口可达，必要时进入二级页"
+    },
+    {
+      "priority": "P2",
+      "feature_id": "apply按钮",
+      "case_type": "主业务闭环",
+      "test_point": "Apply 按钮",
+      "step_hint": "在主闭环完成后扩展验证：Apply 按钮",
+      "success_signal": "入口可达，必要时进入二级页"
+    },
+    {
+      "priority": "P2",
+      "feature_id": "闪光开关",
+      "case_type": "主业务闭环",
+      "test_point": "闪光开关",
+      "step_hint": "在主闭环完成后扩展验证：闪光开关",
+      "success_signal": "入口可达，必要时进入二级页"
+    },
+    {
+      "priority": "P2",
+      "feature_id": "震动开关",
+      "case_type": "主业务闭环",
+      "test_point": "震动开关",
+      "step_hint": "在主闭环完成后扩展验证：震动开关",
+      "success_signal": "入口可达，必要时进入二级页"
+    }
+  ],
+  "report_contract": {
+    "format": "markdown",
+    "render_to_terminal": true,
+    "table_columns": [
+      "用例级别",
+      "测试点",
+      "测试步骤",
+      "测试结果",
+      "失败原因",
+      "证据/备注"
+    ],
+    "rules": {
+      "test_point_dynamic": true,
+      "test_step_dynamic": true,
+      "failure_reason_only_for_failed": true
+    }
+  },
+  "loaded_references": {
+    "core_page_ranking": true,
+    "ad_strategy": true,
+    "permission_strategy": true
+  }
+}

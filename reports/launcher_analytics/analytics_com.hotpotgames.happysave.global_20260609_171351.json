@@ -1,0 +1,79 @@
+{
+  "status": "success",
+  "package": "com.hotpotgames.happysave.global",
+  "serial": "26141FDF60046N",
+  "started_at": "2026-06-09T17:13:51",
+  "ended_at": "2026-06-09T17:23:51",
+  "requested_duration_sec": 600,
+  "actual_duration_sec": 600.0,
+  "monitored_events": [
+    "ad_impression"
+  ],
+  "debug_enabled": true,
+  "debug_info": {
+    "already_enabled": false,
+    "debug_app_before": "com.wifi.analyzer.check.speed",
+    "fa_tag_before": "VERBOSE",
+    "fa_svc_tag_before": "VERBOSE"
+  },
+  "cleanup_info": {
+    "removed_count": 0,
+    "removed_files": []
+  },
+  "log_path": "/Users/admin/PycharmProjects/XiamaoTestProject/reports/launcher_analytics/analytics_com.hotpotgames.happysave.global_20260609_171351.log",
+  "json_path": "/Users/admin/PycharmProjects/XiamaoTestProject/reports/launcher_analytics/analytics_com.hotpotgames.happysave.global_20260609_171351.json",
+  "lines_seen": 7574,
+  "event_counts": {
+    "ad_impression": 1
+  },
+  "matched_event_count": 1,
+  "ad_platform_counts": {
+    "Admob": 1
+  },
+  "ad_format_counts": {
+    "Native": 1
+  },
+  "ad_position_counts": {
+    "Detail_Bottom": 1
+  },
+  "params_count_list": [
+    22
+  ],
+  "max_params_count": 22,
+  "warnings": [],
+  "matched_events": [
+    {
+      "event_name": "ad_impression",
+      "time": "2026-06-09T17:19:38.940",
+      "params_count": 22,
+      "raw_log": "06-09 17:19:38.940 V/FA-SVC  (16054): Logging event: origin=app,name=ad_impression,params=Bundle[{position_number=1, ad_unit_name=ca-app-pub-3940256099942544/2247696110, device_sort=mobile, is_new=new, adgroup={affiliate_id}, hot_open=1, campaign={uuid}, ga_event_origin(_o)=app, ga_screen_class(_sc)=HomeActivity, ga_screen_id(_si)=-1713389430176099232, value=0.0, ad_format=Native, currency=USD, position=Detail_Bottom, ad_source=Reservation campaign, store_channel=googleplay, ad_platform=Admob, format_number=1, cold_open=1, native_type=1, creative={creative_name}, ad_network=SDKTestGame-MTG2}]",
+      "fields": {
+        "position_number": "1",
+        "ad_unit_name": "ca-app-pub-3940256099942544/2247696110",
+        "device_sort": "mobile",
+        "is_new": "new",
+        "adgroup": "{affiliate_id",
+        "hot_open": "1",
+        "campaign": "{uuid",
+        "value": "0.0",
+        "ad_format": "Native",
+        "currency": "USD",
+        "position": "Detail_Bottom",
+        "ad_source": "Reservation campaign",
+        "store_channel": "googleplay",
+        "ad_platform": "Admob",
+        "format_number": "1",
+        "cold_open": "1",
+        "native_type": "1",
+        "creative": "{creative_name",
+        "ad_network": "SDKTestGame-MTG2"
+      },
+      "ad_platform": "Admob",
+      "ad_format": "Native",
+      "position": "Detail_Bottom",
+      "ad_unit_name": "ca-app-pub-3940256099942544/2247696110",
+      "ad_source": "Reservation campaign",
+      "value": "0.0"
+    }
+  ]
+}

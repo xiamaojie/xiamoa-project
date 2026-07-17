@@ -1,0 +1,114 @@
+{
+  "focus": {
+    "package": "com.hotpotgames.happysave.global",
+    "activity": "com.project.activitys.LauncherHomeActivity",
+    "raw": "mCurrentFocus=Window{135c993 u0 com.hotpotgames.happysave.global/com.project.activitys.LauncherHomeActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1783416274662.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1783416274662.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdfprime_probe_home_recovered.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.hotpotgames.happysave.global",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.hotpotgames.happysave.global",
+        "text": "Later",
+        "content_desc": "",
+        "resource_id": "com.hotpotgames.happysave.global:id/tv_right",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          851,
+          120,
+          1080,
+          288
+        ]
+      },
+      {
+        "package": "com.hotpotgames.happysave.global",
+        "text": "Allow",
+        "content_desc": "",
+        "resource_id": "com.hotpotgames.happysave.global:id/tv_ok",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          90,
+          1481,
+          990,
+          1628
+        ]
+      }
+    ],
+    "ad_candidates": [
+      {
+        "package": "com.hotpotgames.happysave.global",
+        "text": "To read and edit your files, please allow PDF Prime to access all your files.",
+        "content_desc": "",
+        "resource_id": "com.hotpotgames.happysave.global:id/tv_des",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          102,
+          1247,
+          978,
+          1361
+        ]
+      }
+    ],
+    "permission_candidates": [
+      {
+        "package": "com.hotpotgames.happysave.global",
+        "text": "Permission Required",
+        "content_desc": "",
+        "resource_id": "com.hotpotgames.happysave.global:id/tv_title",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          237,
+          1147,
+          843,
+          1235
+        ]
+      },
+      {
+        "package": "com.hotpotgames.happysave.global",
+        "text": "To read and edit your files, please allow PDF Prime to access all your files.",
+        "content_desc": "",
+        "resource_id": "com.hotpotgames.happysave.global:id/tv_des",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          102,
+          1247,
+          978,
+          1361
+        ]
+      },
+      {
+        "package": "com.hotpotgames.happysave.global",
+        "text": "Allow",
+        "content_desc": "",
+        "resource_id": "com.hotpotgames.happysave.global:id/tv_ok",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          90,
+          1481,
+          990,
+          1628
+        ]
+      }
+    ],
+    "node_count": 5
+  }
+}

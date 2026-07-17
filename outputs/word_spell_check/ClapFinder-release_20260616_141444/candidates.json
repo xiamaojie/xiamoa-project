@@ -1,0 +1,140 @@
+{
+  "package_path": "/Users/admin/Downloads/ClapFinder-release.aab",
+  "archive_type": "aab",
+  "package_name": "com.hotpotgames.happysave.global",
+  "app_name": "Clap Finder",
+  "version_name": "1.0.4",
+  "version_code": "5",
+  "summary": {
+    "total_entries": 1055,
+    "resource_entries": 1055,
+    "dex_entries": 0,
+    "candidate_count": 5,
+    "candidate_count_before_cap": 5,
+    "skipped": {
+      "dictionary_pass": 945,
+      "too_many_unknown_tokens": 5,
+      "likely_non_english_or_noise": 87,
+      "no_checkable_tokens": 13
+    }
+  },
+  "warnings": [
+    "AAB 未发现可直接读取的英文 values 资源，改为扫描 resources.pb 字符串池。"
+  ],
+  "model_rules": {
+    "check_only": "english_word_spelling",
+    "do_not_check": [
+      "grammar",
+      "tone",
+      "style",
+      "placeholder",
+      "garbled_text",
+      "ui_rendering"
+    ],
+    "uncertain_policy": "return uncertain instead of forcing an error"
+  },
+  "model_output_schema": {
+    "has_issue": "boolean",
+    "token": "string",
+    "suggestion": "string",
+    "candidate_suggestions": [
+      "string"
+    ],
+    "confidence": "high|medium|low|uncertain",
+    "reason": "short english explanation",
+    "zh_reason": "中文原因说明",
+    "zh_summary": "中文结论摘要"
+  },
+  "candidates": [
+    {
+      "source_type": "resource",
+      "source_file": "/var/folders/5b/9dymts492dgb5kwj8wzqrqtw0000gn/T/word-spell-ihty1civ/unpacked/base/resources.pb",
+      "locale": "default",
+      "key": null,
+      "text": "This flag will preserve the hideable boolean value on configuration change.",
+      "suspect_tokens": [
+        "hideable"
+      ],
+      "suggestions": {
+        "hideable": []
+      },
+      "token_count": 10,
+      "known_token_count": 8,
+      "known_ratio": 0.889,
+      "unknown_token_count": 1,
+      "review_status": "pending_model_review"
+    },
+    {
+      "source_type": "resource",
+      "source_file": "/var/folders/5b/9dymts492dgb5kwj8wzqrqtw0000gn/T/word-spell-ihty1civ/unpacked/base/resources.pb",
+      "locale": "default",
+      "key": null,
+      "text": "Peek at the 16:9 ratio keyline of its parent",
+      "suspect_tokens": [
+        "keyline"
+      ],
+      "suggestions": {
+        "keyline": []
+      },
+      "token_count": 6,
+      "known_token_count": 3,
+      "known_ratio": 0.75,
+      "unknown_token_count": 1,
+      "review_status": "pending_model_review"
+    },
+    {
+      "source_type": "resource",
+      "source_file": "/var/folders/5b/9dymts492dgb5kwj8wzqrqtw0000gn/T/word-spell-ihty1civ/unpacked/base/resources.pb",
+      "locale": "default",
+      "key": null,
+      "text": "The checked state of the checkbox.",
+      "suspect_tokens": [
+        "checkbox"
+      ],
+      "suggestions": {
+        "checkbox": []
+      },
+      "token_count": 5,
+      "known_token_count": 2,
+      "known_ratio": 0.667,
+      "unknown_token_count": 1,
+      "review_status": "pending_model_review"
+    },
+    {
+      "source_type": "resource",
+      "source_file": "/var/folders/5b/9dymts492dgb5kwj8wzqrqtw0000gn/T/word-spell-ihty1civ/unpacked/base/resources.pb",
+      "locale": "default",
+      "key": null,
+      "text": "The unchecked state of the checkbox.",
+      "suspect_tokens": [
+        "checkbox"
+      ],
+      "suggestions": {
+        "checkbox": []
+      },
+      "token_count": 5,
+      "known_token_count": 2,
+      "known_ratio": 0.667,
+      "unknown_token_count": 1,
+      "review_status": "pending_model_review"
+    },
+    {
+      "source_type": "resource",
+      "source_file": "/var/folders/5b/9dymts492dgb5kwj8wzqrqtw0000gn/T/word-spell-ihty1civ/unpacked/base/resources.pb",
+      "locale": "default",
+      "key": null,
+      "text": "The indeterminate state of the checkbox.",
+      "suspect_tokens": [
+        "checkbox"
+      ],
+      "suggestions": {
+        "checkbox": []
+      },
+      "token_count": 5,
+      "known_token_count": 2,
+      "known_ratio": 0.667,
+      "unknown_token_count": 1,
+      "review_status": "pending_model_review"
+    }
+  ]
+}

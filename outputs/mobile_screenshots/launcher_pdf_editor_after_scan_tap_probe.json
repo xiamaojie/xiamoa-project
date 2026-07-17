@@ -1,0 +1,59 @@
+{
+  "focus": {
+    "package": "com.google.android.gms",
+    "activity": "com.google.android.gms.mlkit.docscan.ui.DocumentScanningActivity",
+    "raw": "mCurrentFocus=Window{560384c u0 com.google.android.gms/com.google.android.gms.mlkit.docscan.ui.DocumentScanningActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "",
+    "dump_stderr": "ERROR: could not get idle state.",
+    "pull_returncode": 1,
+    "remote_xml_path": "/sdcard/window_1783662341676.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": ""
+  },
+  "summary": {
+    "xml_fresh": false,
+    "foreground_package_from_xml": "",
+    "warnings": [
+      "xml_parse_failed",
+      "no element found: line 1, column 0"
+    ],
+    "clickable_nodes": [],
+    "ad_candidates": [],
+    "permission_candidates": []
+  },
+  "visible_entry_inventory": {
+    "source": "current_ui_probe",
+    "evidence": [],
+    "top_category_tabs": [],
+    "bottom_navigation": [],
+    "action_bar_controls": [],
+    "file_item_actions": [],
+    "floating_action_buttons": [],
+    "ad_surfaces": [],
+    "candidate_pool": [],
+    "business_entries_total": 0,
+    "ad_entries_total": 0,
+    "snapshots": [
+      {
+        "source": "current_ui_probe",
+        "evidence": [],
+        "top_category_tabs": [],
+        "bottom_navigation": [],
+        "action_bar_controls": [],
+        "file_item_actions": [],
+        "floating_action_buttons": [],
+        "ad_surfaces": [],
+        "candidate_pool": [],
+        "business_entries_total": 0,
+        "ad_entries_total": 0,
+        "page_role": "unknown",
+        "activity": "com.google.android.gms.mlkit.docscan.ui.DocumentScanningActivity"
+      }
+    ]
+  }
+}

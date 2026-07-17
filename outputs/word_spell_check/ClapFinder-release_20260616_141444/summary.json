@@ -1,0 +1,31 @@
+{
+  "package_path": "/Users/admin/Downloads/ClapFinder-release.aab",
+  "archive_type": "aab",
+  "package_name": "com.hotpotgames.happysave.global",
+  "app_name": "Clap Finder",
+  "version_name": "1.0.4",
+  "version_code": "5",
+  "cleanup_info": {
+    "removed_files": [],
+    "kept_history": false
+  },
+  "model_review_ready": true,
+  "mode": "candidates",
+  "summary": {
+    "total_entries": 1055,
+    "resource_entries": 1055,
+    "dex_entries": 0,
+    "candidate_count": 5,
+    "candidate_count_before_cap": 5,
+    "skipped": {
+      "dictionary_pass": 945,
+      "too_many_unknown_tokens": 5,
+      "likely_non_english_or_noise": 87,
+      "no_checkable_tokens": 13
+    }
+  },
+  "artifacts": {
+    "payload_json": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/word_spell_check/ClapFinder-release_20260616_141444/candidates.json",
+    "review_manifest_md": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/word_spell_check/ClapFinder-release_20260616_141444/review_manifest.md"
+  }
+}

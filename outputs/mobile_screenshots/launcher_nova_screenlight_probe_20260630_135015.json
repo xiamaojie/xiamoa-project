@@ -1,0 +1,140 @@
+{
+  "focus": {
+    "package": "com.nova.torch.bright.flashlight.dark",
+    "activity": "com.project.core.activitys.LauncherHomeActivity",
+    "raw": "mCurrentFocus=Window{67524e1 u0 com.nova.torch.bright.flashlight.dark/com.project.core.activitys.LauncherHomeActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1782799251731.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1782799251731.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_nova_screenlight_probe_20260630_135015.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.nova.torch.bright.flashlight.dark",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/iv_traffic",
+        "class": "android.widget.RelativeLayout",
+        "clickable": true,
+        "bounds": [
+          53,
+          330,
+          1027,
+          656
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/iv_color",
+        "class": "android.widget.RelativeLayout",
+        "clickable": true,
+        "bounds": [
+          53,
+          709,
+          1027,
+          1035
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/iv_warning",
+        "class": "android.widget.RelativeLayout",
+        "clickable": true,
+        "bounds": [
+          53,
+          1088,
+          1027,
+          1414
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/iv_poisonous",
+        "class": "android.widget.RelativeLayout",
+        "clickable": true,
+        "bounds": [
+          53,
+          1467,
+          1027,
+          1793
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Flash",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/flash_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          121,
+          2059,
+          330,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Magnifier",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/magnifier_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          330,
+          2059,
+          540,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Text Light",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/text_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          540,
+          2059,
+          750,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Screen Light",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/screen_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          750,
+          2059,
+          960,
+          2232
+        ]
+      }
+    ],
+    "ad_candidates": [],
+    "permission_candidates": [],
+    "node_count": 15
+  }
+}

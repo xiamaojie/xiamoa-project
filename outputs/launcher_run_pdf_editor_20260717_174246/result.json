@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "app": {
+    "package": "com.pdf.scanner.editor.reader.office",
+    "app_name": "PDF Editor",
+    "artifact_path": "/Users/admin/Downloads/PDF Editor：Scanner & Reader-1.0.4.apk",
+    "version_name": "1.0.4"
+  },
+  "execution": {
+    "state": "BLOCKED",
+    "started_at": "2026-07-17T17:42:50+08:00",
+    "ended_at": "2026-07-17T17:57:16+08:00",
+    "target_duration_sec": 600,
+    "actual_duration_sec": 866,
+    "early_end": false,
+    "completion_reason": "已生成静态测试点并以真实负一屏/桌面截图动态修正；负一屏和桌面入口均被连续全屏广告拦截，停止重复触发并回到 HOME。"
+  },
+  "test_points": {
+    "static_plan": "optional/static_test_plan.json",
+    "dynamic_correction": "静态计划将 APK 误判为声音型 Launcher，已由真实 UI 覆盖。实际 Launcher 首页包含桌面图标、搜索栏与 PDF Editor 图标；实际业务页包含 File、PDF/Word/Excel/PPT/TXT、Scan、Recent/Collect/Tools。",
+    "dynamic_points": [
+      {
+        "feature_id": "negative_screen_navigation",
+        "priority": "P0",
+        "status": "executed"
+      },
+      {
+        "feature_id": "desktop_pdf_editor_entry",
+        "priority": "P0",
+        "status": "executed"
+      },
+      {
+        "feature_id": "scanner_entry",
+        "priority": "P0",
+        "status": "executed"
+      },
+      {
+        "feature_id": "file_category_filter",
+        "priority": "P1",
+        "status": "uncovered"
+      },
+      {
+        "feature_id": "recent_collect_tools",
+        "priority": "P1",
+        "status": "uncovered"
+      }
+    ]
+  },
+  "flows": [
+    {
+      "feature_id": "launcher_onboarding_start",
+      "name": "首次引导进入默认桌面设置",
+      "priority": "P0",
+      "result": "通过",
+      "success_signal": "点击 Start 后出现系统 Default home app 选择页",
+      "model_observation": "截图从应用引导页切换为系统默认桌面选择页，目标应用列在候选中。",
+      "evidence": [
+        {
+          "action_id": "onboarding_start",
+          "target": "Start",
+          "before_screenshot": "screenshots/05_before_onboarding_start.png",
+          "after_screenshot": "screenshots/06_after_onboarding_start.png",
+          "visual_change": "changed",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "feature_id": "default_home_selection",
+      "name": "设为默认桌面",
+      "priority": "P0",
+      "result": "通过",
+      "success_signal": "HOME resolve 到 com.pdf.scanner.editor.reader.office/com.xm.lib_base.HomeActivity",
+      "model_observation": "系统默认桌面候选页选择 PDF Editor 后，应用显示必要权限引导；ADB HOME 解析和前台 Activity 都指向应用的 HomeActivity。",
+      "evidence": [
+        {
+          "action_id": "select_default_home",
+          "target": "PDF Editor",
+          "before_screenshot": "screenshots/09_before_default_home_retry.png",
+          "after_screenshot": "screenshots/10_after_default_home_retry.png",
+          "visual_change": "changed",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "feature_id": "all_files_permission_closure",
+      "name": "所有文件访问授权与业务页回流",
+      "priority": "P1",
+      "result": "通过",
+      "success_signal": "系统 All files access 开关授权后返回应用 File 首页",
+      "model_observation": "权限语义和系统授权页面均由截图明确展示；开启后回流至应用 File 首页。",
+      "evidence": [
+        {
+          "action_id": "grant_all_files_access",
+          "target": "Allow access to manage all files",
+          "before_screenshot": "screenshots/13_before_system_all_files_grant.png",
+          "after_screenshot": "screenshots/15_after_permission_return.png",
+          "visual_change": "changed",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "feature_id": "negative_screen_navigation",
+      "name": "负一屏进入与可用性",
+      "priority": "P0",
+      "result": "失败",
+      "success_signal": "从 Launcher 首页右滑后应进入可探索的负一屏业务面",
+      "model_observation": "右滑后进入 MBridge 全屏激励广告，关闭后又出现 Pangle/TikTok 广告；未到达可测试的负一屏业务页面。",
+      "evidence": [
+        {
+          "action_id": "swipe_to_negative_screen",
+          "target": "Launcher 首页右滑",
+          "before_screenshot": "screenshots/18_before_negative_screen.png",
+          "after_screenshot": "screenshots/19_after_negative_screen_right_swipe.png",
+          "visual_change": "changed_to_ad",
+          "confidence": "high"
+        },
+        {
+          "action_id": "close_ad_chain",
+          "target": "视觉明确的 Close",
+          "before_screenshot": "screenshots/21_before_ad_close.png",
+          "after_screenshot": "screenshots/24_after_second_ad_close.png",
+          "visual_change": "returned_to_file_page_after_multiple_ads",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "feature_id": "scanner_entry",
+      "name": "Scan 入口打开文档扫描器",
+      "priority": "P0",
+      "result": "通过",
+      "success_signal": "点击可见 Scan FAB 后进入系统文档扫描器",
+      "model_observation": "按 XML bounds 受控重试后，进入 Google ML Kit DocumentScanningActivity，页面显示 Position document in frame 与 Capture 控件。未保存扫描内容。",
+      "evidence": [
+        {
+          "action_id": "open_scan_entry",
+          "target": "Scan FAB",
+          "before_screenshot": "screenshots/27_before_scan_fab_retry.png",
+          "after_screenshot": "screenshots/28_after_scan_fab_retry.png",
+          "visual_change": "changed",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "feature_id": "desktop_pdf_editor_entry",
+      "name": "Launcher 桌面 PDF Editor 图标进入业务页",
+      "priority": "P0",
+      "result": "失败",
+      "success_signal": "点击桌面 PDF Editor 图标后进入 File 首页",
+      "model_observation": "点击可见 PDF Editor 图标后先进入 AdActivity，Skip 后仍进入另一广告插屏；没有回到 File 首页。",
+      "evidence": [
+        {
+          "action_id": "open_pdf_editor_desktop_icon",
+          "target": "PDF Editor",
+          "before_screenshot": "screenshots/38_before_pdf_editor_desktop_entry.png",
+          "after_screenshot": "screenshots/40_pdf_editor_entry_ad_probe.png",
+          "visual_change": "changed_to_ad",
+          "confidence": "high"
+        },
+        {
+          "action_id": "skip_entry_ad",
+          "target": "视觉明确的 Skip",
+          "before_screenshot": "screenshots/41_before_entry_ad_skip.png",
+          "after_screenshot": "screenshots/42_after_entry_ad_skip.png",
+          "visual_change": "changed_to_second_ad",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "recoveries": [
+    {
+      "feature_id": "return_home_recovery",
+      "action": "HOME",
+      "before_screenshot": "screenshots/16_before_home_recovery.png",
+      "after_screenshot": "screenshots/17_after_home_recovery.png",
+      "result": "通过",
+      "model_observation": "按 HOME 后仍停留在 PDF Editor HomeActivity，说明默认桌面接管与回流稳定。"
+    }
+  ],
+  "ads": [
+    {
+      "trigger": "Launcher 首页右滑进入负一屏",
+      "result": "广告链拦截业务页",
+      "close_action": "视觉明确 Close 两次",
+      "evidence": [
+        "screenshots/19_after_negative_screen_right_swipe.png",
+        "screenshots/20_ad_close_probe.png",
+        "screenshots/22_after_ad_close.png",
+        "screenshots/24_after_second_ad_close.png"
+      ]
+    },
+    {
+      "trigger": "Launcher 桌面 PDF Editor 图标",
+      "result": "广告链拦截 File 首页",
+      "close_action": "视觉明确 Skip 后仍出现下一层插屏",
+      "evidence": [
+        "screenshots/40_pdf_editor_entry_ad_probe.png",
+        "screenshots/42_after_entry_ad_skip.png"
+      ]
+    }
+  ],
+  "permissions": {
+    "status": "granted",
+    "reason": "当前文件读取与编辑主链路明确请求 MANAGE_EXTERNAL_STORAGE，并由系统页完成授权。",
+    "records": [
+      {
+        "canonical_permission": "MANAGE_EXTERNAL_STORAGE",
+        "result": "granted",
+        "evidence": [
+          "screenshots/12_after_all_files_allow.png",
+          "screenshots/14_after_system_all_files_grant.png",
+          "screenshots/15_after_permission_return.png"
+        ]
+      }
+    ]
+  },
+  "p2_audit": {
+    "status": "blocked",
+    "candidates": [],
+    "reason": "广告已触发且关闭动作可执行，但广告关闭后未回流到负一屏或 File 首页，而是继续出现下一层广告。",
+    "evidence": []
+  },
+  "optional_evidence": {
+    "xml": {
+      "status": "collected",
+      "reason": "optional/onboarding.xml、default_home.xml、permission.xml、all_files.xml"
+    },
+    "activity": {
+      "status": "collected",
+      "reason": "DefaultAppActivity、Settings SpaActivity 与 HomeActivity 前台状态已记录"
+    },
+    "analytics": {
+      "status": "not_collected",
+      "reason": "本轮未启动长时 analytics monitor；不影响截图业务结论"
+    },
+    "stability": {
+      "status": "collected",
+      "reason": "optional/startup_logcat.txt 已采集，未见本包 AndroidRuntime FATAL EXCEPTION"
+    }
+  },
+  "warnings": [
+    "首次按坐标点击引导 Start 未落入真实控件 bounds；已通过 XML 定位后完成一次受控重试。",
+    "静态计划存在模板词污染，动态测试点已按实际 UI 覆盖。",
+    "Scan 自动模式捕获了临时页面；未保存或导出，已强制退出扫描组件并返回 HOME。",
+    "File 分类筛选和 Recent/Collect/Tools 因核心入口被广告链拦截而未覆盖。"
+  ],
+  "uncovered": [
+    "file_category_filter",
+    "recent_collect_tools",
+    "negative_screen_navigation",
+    "desktop_pdf_editor_entry"
+  ],
+  "blocking_reasons": [
+    "负一屏右滑被连续全屏广告拦截，广告关闭后未回流至负一屏业务页。",
+    "Launcher 桌面 PDF Editor 图标被连续启动广告拦截，无法进入 File 首页。",
+    "广告已触发且关闭动作可执行，但广告关闭后未回流到负一屏或 File 首页，而是继续出现下一层广告。"
+  ],
+  "report_integrity": "verified",
+  "business_outcome": "blocked"
+}

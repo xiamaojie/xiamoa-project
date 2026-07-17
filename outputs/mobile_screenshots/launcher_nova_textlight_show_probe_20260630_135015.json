@@ -1,0 +1,99 @@
+{
+  "focus": {
+    "package": "com.nova.torch.bright.flashlight.dark",
+    "activity": "com.project.core.activitys.LauncherHomeActivity",
+    "raw": "mCurrentFocus=Window{6f71ea6 u0 com.nova.torch.bright.flashlight.dark/com.project.core.activitys.LauncherHomeActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1782799107712.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1782799107712.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_nova_textlight_show_probe_20260630_135015.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.nova.torch.bright.flashlight.dark",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/dialog_overlay",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          0,
+          128,
+          1080,
+          2274
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/dialog_card",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          107,
+          733,
+          973,
+          1789
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/button_watch_to_unlock",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          230,
+          1464,
+          850,
+          1611
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "No Thanks",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/button_no_thanks",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          439,
+          1653,
+          640,
+          1710
+        ]
+      }
+    ],
+    "ad_candidates": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Watch a quick ad to display your custom text.",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/dialog_message",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          214,
+          1237,
+          865,
+          1354
+        ]
+      }
+    ],
+    "permission_candidates": [],
+    "node_count": 8
+  }
+}

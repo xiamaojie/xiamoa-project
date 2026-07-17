@@ -1,0 +1,502 @@
+{
+  "focus": {
+    "package": "com.pdf.scanner.editor.reader.office",
+    "activity": "com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity",
+    "raw": "mCurrentFocus=Window{5e4b6dc u0 com.pdf.scanner.editor.reader.office/com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1783662121736.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1783662121736.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.pdf.scanner.editor.reader.office",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.webkit.WebView",
+        "clickable": true,
+        "bounds": [
+          0,
+          128,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          0,
+          128,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "bounds": [
+          42,
+          191,
+          116,
+          265
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "Ad closed",
+        "resource_id": "",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "bounds": [
+          964,
+          181,
+          1038,
+          255
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          0,
+          2042,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "Download",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          42,
+          2242,
+          1038,
+          2337
+        ]
+      }
+    ],
+    "ad_candidates": [
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.webkit.WebView",
+        "clickable": true,
+        "bounds": [
+          0,
+          128,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          0,
+          128,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "bounds": [
+          42,
+          191,
+          116,
+          265
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "Ad closed",
+        "resource_id": "",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "bounds": [
+          964,
+          181,
+          1038,
+          255
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          0,
+          2042,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "TikTokなら、今バズってる最新トレンドもすぐキャッチできる",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          200,
+          2114,
+          1038,
+          2179
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "Download",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          42,
+          2242,
+          1038,
+          2337
+        ]
+      }
+    ],
+    "permission_candidates": [],
+    "visible_entry_count": 8,
+    "node_count": 8
+  },
+  "visible_entry_inventory": {
+    "source": "current_ui_probe",
+    "evidence": [
+      "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml"
+    ],
+    "top_category_tabs": [],
+    "bottom_navigation": [],
+    "action_bar_controls": [],
+    "file_item_actions": [],
+    "floating_action_buttons": [],
+    "ad_surfaces": [
+      {
+        "label": "FrameLayout",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "WebView",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[0,128][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "FrameLayout",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[0,128][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "ImageView",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[42,191][116,265]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "Ad closed",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[964,181][1038,255]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "LinearLayout",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[0,2042][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "TikTokなら、今バズってる最新トレンドもすぐキャッチできる",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[200,2114][1038,2179]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "Download",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[42,2242][1038,2337]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      }
+    ],
+    "candidate_pool": [],
+    "business_entries_total": 0,
+    "ad_entries_total": 8,
+    "snapshots": [
+      {
+        "source": "current_ui_probe",
+        "evidence": [
+          "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml"
+        ],
+        "top_category_tabs": [],
+        "bottom_navigation": [],
+        "action_bar_controls": [],
+        "file_item_actions": [],
+        "floating_action_buttons": [],
+        "ad_surfaces": [
+          {
+            "label": "FrameLayout",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "WebView",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[0,128][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "FrameLayout",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[0,128][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "ImageView",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[42,191][116,265]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "Ad closed",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[964,181][1038,255]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "LinearLayout",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[0,2042][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "TikTokなら、今バズってる最新トレンドもすぐキャッチできる",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[200,2114][1038,2179]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "Download",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[42,2242][1038,2337]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_ad_back_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          }
+        ],
+        "candidate_pool": [],
+        "business_entries_total": 0,
+        "ad_entries_total": 8,
+        "page_role": "unknown",
+        "activity": "com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
+      }
+    ]
+  }
+}

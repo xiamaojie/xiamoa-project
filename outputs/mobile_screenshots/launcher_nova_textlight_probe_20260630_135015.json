@@ -1,0 +1,336 @@
+{
+  "focus": {
+    "package": "com.nova.torch.bright.flashlight.dark",
+    "activity": "com.project.core.activitys.LauncherHomeActivity",
+    "raw": "mCurrentFocus=Window{67524e1 u0 com.nova.torch.bright.flashlight.dark/com.project.core.activitys.LauncherHomeActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1782799062842.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1782799062842.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_nova_textlight_probe_20260630_135015.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.nova.torch.bright.flashlight.dark",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Write your text here",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/editText",
+        "class": "android.widget.EditText",
+        "clickable": true,
+        "bounds": [
+          561,
+          346,
+          1017,
+          624
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/relativeLayout",
+        "class": "android.widget.RelativeLayout",
+        "clickable": true,
+        "bounds": [
+          561,
+          666,
+          1017,
+          761
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          53,
+          955,
+          192,
+          1029
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          192,
+          955,
+          331,
+          1029
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          331,
+          955,
+          470,
+          1029
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          470,
+          955,
+          609,
+          1029
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          609,
+          955,
+          748,
+          1029
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          748,
+          955,
+          887,
+          1029
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          887,
+          955,
+          1026,
+          1029
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          53,
+          1214,
+          192,
+          1288
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          192,
+          1214,
+          331,
+          1288
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          331,
+          1214,
+          470,
+          1288
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          470,
+          1214,
+          609,
+          1288
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          609,
+          1214,
+          748,
+          1288
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          748,
+          1214,
+          887,
+          1288
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          887,
+          1214,
+          1026,
+          1288
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/switchBlink",
+        "class": "android.widget.Switch",
+        "clickable": true,
+        "bounds": [
+          859,
+          1669,
+          1027,
+          1753
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/switchRun",
+        "class": "android.widget.Switch",
+        "clickable": true,
+        "bounds": [
+          859,
+          1795,
+          1027,
+          1879
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Flash",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/flash_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          121,
+          2059,
+          330,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Magnifier",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/magnifier_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          330,
+          2059,
+          540,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Text Light",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/text_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          540,
+          2059,
+          750,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Screen Light",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/screen_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          750,
+          2059,
+          960,
+          2232
+        ]
+      }
+    ],
+    "ad_candidates": [],
+    "permission_candidates": [],
+    "node_count": 36
+  }
+}

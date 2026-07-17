@@ -1,0 +1,29 @@
+{
+  "focus": {
+    "package": "com.hotpotgames.happysave.global",
+    "activity": "com.mbridge.msdk.reward.player.MBRewardVideoActivity",
+    "raw": "mCurrentFocus=Window{6e6c8a0 u0 com.hotpotgames.happysave.global/com.mbridge.msdk.reward.player.MBRewardVideoActivity"
+  },
+  "dump": {
+    "dump_status": "failed",
+    "dump_returncode": 137,
+    "dump_stdout": "",
+    "dump_stderr": "",
+    "pull_returncode": 1,
+    "remote_xml_path": "/sdcard/window_1783416224802.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": ""
+  },
+  "summary": {
+    "xml_fresh": false,
+    "foreground_package_from_xml": "",
+    "warnings": [
+      "xml_parse_failed",
+      "no element found: line 1, column 0"
+    ],
+    "clickable_nodes": [],
+    "ad_candidates": [],
+    "permission_candidates": []
+  }
+}

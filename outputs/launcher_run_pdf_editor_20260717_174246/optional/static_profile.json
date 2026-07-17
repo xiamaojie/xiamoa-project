@@ -1,0 +1,290 @@
+{
+  "artifact_path": "/Users/admin/Downloads/PDF Editor：Scanner & Reader-1.0.4.apk",
+  "app_name": "PDF Editor",
+  "package_name": "com.pdf.scanner.editor.reader.office",
+  "app_category": "找手机/声音型 Launcher",
+  "strategy_summary": "优先测试声音卡片、播放、时长切换、Apply、闪光/震动/总开关，以及广告和权限链路。",
+  "core_negative_screen_targets": [
+    "声音卡片",
+    "详情页",
+    "播放按钮",
+    "Apply 按钮",
+    "闪光开关",
+    "震动开关"
+  ],
+  "priority_actions": [
+    "点击声音卡片",
+    "点击 Play",
+    "切换 5s/15s/30s/1m",
+    "点击 Apply",
+    "测试 flash/vib/on-off"
+  ],
+  "ad_trigger_actions": [
+    "声音详情页点击 Apply",
+    "开启告警/提示音后返回桌面"
+  ],
+  "expected_permissions": [
+    "麦克风",
+    "通知",
+    "音频",
+    "闪光灯",
+    "所有文件访问",
+    "相机"
+  ],
+  "main_closure_flow": [
+    "进入声音卡片详情页",
+    "点击 Play 或 Apply",
+    "切换时长或模式",
+    "返回桌面或业务页观察告警状态",
+    "执行停止或关闭动作"
+  ],
+  "main_closure_success_signals": [
+    "声音或告警模式被成功触发",
+    "时长/模式切换后界面状态变化",
+    "停止动作后告警状态可结束"
+  ],
+  "matched_keywords": [
+    "apply",
+    "battery",
+    "bright",
+    "cache",
+    "camera",
+    "clap",
+    "clean",
+    "cleaner",
+    "clock",
+    "download",
+    "flash",
+    "font",
+    "health",
+    "icon",
+    "junk",
+    "light",
+    "live",
+    "network",
+    "overlay",
+    "password",
+    "process",
+    "scan",
+    "sound",
+    "speed",
+    "style",
+    "theme",
+    "tools",
+    "translate",
+    "upload",
+    "wallpaper",
+    "weather",
+    "widget",
+    "wifi"
+  ],
+  "category_scores": {
+    "wallpaper_launcher": 1,
+    "health_cleaner_launcher": 1,
+    "clap_sound_launcher": 6,
+    "earth_map_places_launcher": 1,
+    "wifi_tool_launcher": 1,
+    "flashlight_tool_launcher": 1,
+    "theme_personalization_launcher": 1,
+    "widget_tool_launcher": 1
+  },
+  "classification_confidence": "中",
+  "classification_diagnostics": {
+    "suppressed_scores": {
+      "wifi_tool_launcher": 9,
+      "theme_personalization_launcher": 6,
+      "flashlight_tool_launcher": 6,
+      "wallpaper_launcher": 7,
+      "widget_tool_launcher": 7,
+      "health_cleaner_launcher": 8,
+      "earth_map_places_launcher": 5
+    },
+    "support_reasons": {
+      "wifi_tool_launcher": [],
+      "theme_personalization_launcher": [],
+      "flashlight_tool_launcher": [],
+      "wallpaper_launcher": [],
+      "widget_tool_launcher": [],
+      "health_cleaner_launcher": [],
+      "earth_map_places_launcher": [],
+      "clap_sound_launcher": [
+        "coherent_tokens:clap+sound"
+      ]
+    },
+    "noise_suppressed_keywords": [
+      "download",
+      "network",
+      "overlay",
+      "password",
+      "speed",
+      "theme",
+      "upload",
+      "wallpaper",
+      "widget",
+      "wifi"
+    ]
+  },
+  "noise_suppressed_keywords": [
+    "download",
+    "network",
+    "overlay",
+    "password",
+    "speed",
+    "theme",
+    "upload",
+    "wallpaper",
+    "widget",
+    "wifi"
+  ],
+  "shell_profile": {
+    "purpose": "Launcher shell routing only: HOME/default launcher/negative-screen handling",
+    "template_indicators": [
+      "set_wallpaper",
+      "set_wallpaper"
+    ],
+    "matched_keywords": [
+      "set",
+      "set_wallpaper",
+      "wallpaper"
+    ],
+    "classification_usage": "not_allowed_for_business_category_dominance"
+  },
+  "business_profile": {
+    "purpose": "Business classification: app identity, business activities, layouts, resources, strings, and real measured pages",
+    "identity_tokens": [
+      "apk",
+      "com",
+      "editor",
+      "office",
+      "pdf",
+      "reader",
+      "scanner"
+    ],
+    "matched_keywords": [
+      "apply",
+      "battery",
+      "bright",
+      "cache",
+      "camera",
+      "clap",
+      "clean",
+      "cleaner",
+      "clock",
+      "download",
+      "flash",
+      "font",
+      "health",
+      "icon",
+      "junk",
+      "light",
+      "live",
+      "network",
+      "overlay",
+      "password",
+      "process",
+      "scan",
+      "sound",
+      "speed",
+      "style",
+      "theme",
+      "tools",
+      "translate",
+      "upload",
+      "wallpaper",
+      "weather",
+      "widget",
+      "wifi"
+    ],
+    "excluded_shell_keywords": [
+      "home",
+      "launcher",
+      "set_wallpaper"
+    ]
+  },
+  "classification_policy": {
+    "shell_profile_usage": "HOME/default desktop/negative-screen shell routing only",
+    "business_profile_usage": "business category, P0/P1 test points, closure, and report wording",
+    "dynamic_business_profile_source": "real device first business screen must be appended during Dynamic Correction"
+  },
+  "permission_diagnostics": {
+    "manifest_permissions": [
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.READ_WALLPAPER_INTERNAL",
+      "android.permission.SET_WALLPAPER",
+      "android.permission.REQUEST_DELETE_PACKAGES",
+      "android.permission.INTERNET",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CAMERA",
+      "android.permission.MANAGE_EXTERNAL_STORAGE",
+      "android.permission.WAKE_LOCK",
+      "android.permission.VIBRATE",
+      "android.permission.READ_BASIC_PHONE_STATE",
+      "android.permission.ACCESS_ADSERVICES_TOPICS",
+      "android.permission.ACCESS_ADSERVICES_AD_ID",
+      "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+      "android.permission.SYSTEM_ALERT_WINDOW",
+      "android.permission.POST_NOTIFICATIONS",
+      "android.permission.FOREGROUND_SERVICE",
+      "android.permission.BIND_JOB_SERVICE",
+      "android.permission.DUMP"
+    ],
+    "special_permissions": [
+      "manifest:MANAGE_EXTERNAL_STORAGE",
+      "manifest:CAMERA"
+    ],
+    "business_guidance_permissions": []
+  },
+  "manifest_permissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_WALLPAPER_INTERNAL",
+    "android.permission.SET_WALLPAPER",
+    "android.permission.REQUEST_DELETE_PACKAGES",
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CAMERA",
+    "android.permission.MANAGE_EXTERNAL_STORAGE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.VIBRATE",
+    "android.permission.READ_BASIC_PHONE_STATE",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.BIND_JOB_SERVICE",
+    "android.permission.DUMP"
+  ],
+  "high_risk_permissions": [
+    {
+      "permission": "MANAGE_EXTERNAL_STORAGE",
+      "label": "所有文件访问",
+      "risk_level": "disabled",
+      "likely_feature": "文件扫描/文件管理/导入导出",
+      "likely_feature_source": "permission_registry",
+      "priority_candidate": "P0候选",
+      "coverage_required_reason": "访问所有共享存储内容，需充分说明必要性并通过 Google Play 特殊审核",
+      "source_list": "Disable_permission_list",
+      "source_kind": "manifest_permission",
+      "manifest_permission": "android.permission.MANAGE_EXTERNAL_STORAGE"
+    },
+    {
+      "permission": "CAMERA",
+      "label": "相机",
+      "risk_level": "high",
+      "likely_feature": "拍照/扫描/相机预览/放大镜",
+      "likely_feature_source": "permission_registry",
+      "priority_candidate": "P0候选",
+      "coverage_required_reason": "摄像头访问；必须符合最小权限原则并对应可见核心功能",
+      "source_list": "List_of_high_risk_permissions",
+      "source_kind": "manifest_permission",
+      "manifest_permission": "android.permission.CAMERA"
+    }
+  ]
+}

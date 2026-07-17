@@ -1,0 +1,267 @@
+{
+  "focus": {
+    "package": "com.nova.torch.bright.flashlight.dark",
+    "activity": "com.project.core.activitys.LauncherHomeActivity",
+    "raw": "mCurrentFocus=Window{67524e1 u0 com.nova.torch.bright.flashlight.dark/com.project.core.activitys.LauncherHomeActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1782798895056.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1782798895056.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_nova_after_ad_close_probe_20260630_135015.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.nova.torch.bright.flashlight.dark",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/nativeAdView",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          42,
+          170,
+          1038,
+          371
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/ad_app_icon",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "bounds": [
+          74,
+          202,
+          211,
+          339
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "地域天気ニュース - レーダー",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/ad_headline",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          243,
+          202,
+          764,
+          260
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Install",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/cta",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          764,
+          229,
+          995,
+          313
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/flashlight_toggle_button",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          173,
+          424,
+          908,
+          1080
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Flashlight",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/flashlight",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          152,
+          1159,
+          488,
+          1264
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "SOS",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/sos",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          593,
+          1159,
+          929,
+          1264
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Flash",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/flash_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          121,
+          2059,
+          330,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Magnifier",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/magnifier_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          330,
+          2059,
+          540,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Text Light",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/text_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          540,
+          2059,
+          750,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Screen Light",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/screen_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          750,
+          2059,
+          960,
+          2232
+        ]
+      }
+    ],
+    "ad_candidates": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/nativeAdView",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          42,
+          170,
+          1038,
+          371
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/ad_app_icon",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "bounds": [
+          74,
+          202,
+          211,
+          339
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "地域天気ニュース - レーダー",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/ad_headline",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          243,
+          202,
+          764,
+          260
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Ad",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/ad_notification_view",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          243,
+          276,
+          309,
+          329
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/ad_stars",
+        "class": "android.widget.RatingBar",
+        "clickable": false,
+        "bounds": [
+          330,
+          282,
+          540,
+          324
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Install",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/cta",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          764,
+          229,
+          995,
+          313
+        ]
+      }
+    ],
+    "permission_candidates": [],
+    "node_count": 14
+  }
+}

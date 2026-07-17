@@ -1,0 +1,157 @@
+{
+  "focus": {
+    "package": "com.google.android.permissioncontroller",
+    "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+    "raw": "mCurrentFocus=Window{b2d2693 u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1782798987243.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1782798987243.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_nova_magnifier_probe_20260630_135015.xml"
+  },
+  "summary": {
+    "xml_fresh": false,
+    "foreground_package_from_xml": "com.google.android.permissioncontroller",
+    "warnings": [
+      "foreground_package_mismatch"
+    ],
+    "clickable_nodes": [
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "While using the app",
+        "content_desc": "",
+        "resource_id": "com.android.permissioncontroller:id/permission_allow_foreground_only_button",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          133,
+          1134,
+          947,
+          1281
+        ]
+      },
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "Only this time",
+        "content_desc": "",
+        "resource_id": "com.android.permissioncontroller:id/permission_allow_one_time_button",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          133,
+          1291,
+          947,
+          1438
+        ]
+      },
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "Don’t allow",
+        "content_desc": "",
+        "resource_id": "com.android.permissioncontroller:id/permission_deny_button",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          133,
+          1448,
+          947,
+          1595
+        ]
+      }
+    ],
+    "ad_candidates": [],
+    "permission_candidates": [
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": false,
+        "bounds": [
+          28,
+          702,
+          1052,
+          1700
+        ]
+      },
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.ScrollView",
+        "clickable": false,
+        "bounds": [
+          28,
+          702,
+          1052,
+          1700
+        ]
+      },
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "Allow Nova Torch to take pictures and record video?",
+        "content_desc": "",
+        "resource_id": "com.android.permissioncontroller:id/permission_message",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          133,
+          923,
+          947,
+          1066
+        ]
+      },
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "While using the app",
+        "content_desc": "",
+        "resource_id": "com.android.permissioncontroller:id/permission_allow_foreground_only_button",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          133,
+          1134,
+          947,
+          1281
+        ]
+      },
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "Only this time",
+        "content_desc": "",
+        "resource_id": "com.android.permissioncontroller:id/permission_allow_one_time_button",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          133,
+          1291,
+          947,
+          1438
+        ]
+      },
+      {
+        "package": "com.google.android.permissioncontroller",
+        "text": "Don’t allow",
+        "content_desc": "",
+        "resource_id": "com.android.permissioncontroller:id/permission_deny_button",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          133,
+          1448,
+          947,
+          1595
+        ]
+      }
+    ],
+    "node_count": 6
+  }
+}

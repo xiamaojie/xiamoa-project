@@ -1,0 +1,1542 @@
+{
+  "focus": {
+    "package": "com.pdf.scanner.editor.reader.office",
+    "activity": "com.google.android.libraries.ads.mobile.sdk.common.AdActivity",
+    "raw": "mCurrentFocus=Window{d616a54 u0 com.pdf.scanner.editor.reader.office/com.google.android.libraries.ads.mobile.sdk.common.AdActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1783662209380.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1783662209380.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.pdf.scanner.editor.reader.office",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "javascript:window.open(window",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": true,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "cbb",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          997,
+          299,
+          1052,
+          354
+        ]
+      }
+    ],
+    "ad_candidates": [
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.webkit.WebView",
+        "clickable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.webkit.WebView",
+        "clickable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          0,
+          126,
+          1080,
+          231
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "close-button",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          252,
+          139,
+          1080,
+          231
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "PDF Editor：Scanner & Reader",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          372,
+          162,
+          706,
+          207
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "Close and continue to app",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          700,
+          168,
+          966,
+          204
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          981,
+          152,
+          1050,
+          220
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          981,
+          152,
+          1050,
+          220
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.Image",
+        "clickable": false,
+        "bounds": [
+          981,
+          152,
+          1050,
+          220
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "advertisement-card-wrapper",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          0,
+          126,
+          1080,
+          2373
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          5,
+          236,
+          1076,
+          299
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "Advertisement",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          18,
+          246,
+          288,
+          294
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "ad_iframe",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          294,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          294,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          294,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "avic_CIXa2-ayx5UDFTnoNAcdAYMtUA",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          26,
+          294,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "google_scaling_div",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "ad_unit",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "dclk-studio-creative_1783661990453",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "200_287_express_html_inpage_0.if",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "index",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "javascript:window.open(window",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": true,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "animation_container",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "canvas",
+        "class": "android.widget.Image",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "dom_overlay_container",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          26,
+          296,
+          1055,
+          2352
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "abgcp",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          882,
+          296,
+          1055,
+          435
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "abgc",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          921,
+          299,
+          1052,
+          354
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "abgb",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          921,
+          299,
+          1000,
+          354
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          921,
+          299,
+          1000,
+          354
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "bounds": [
+          921,
+          299,
+          1000,
+          354
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.Image",
+        "clickable": false,
+        "bounds": [
+          921,
+          299,
+          1002,
+          354
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "cbb",
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": [
+          997,
+          299,
+          1052,
+          354
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "bounds": [
+          26,
+          294,
+          1055,
+          2352
+        ]
+      }
+    ],
+    "permission_candidates": [],
+    "visible_entry_count": 31,
+    "node_count": 37
+  },
+  "visible_entry_inventory": {
+    "source": "current_ui_probe",
+    "evidence": [
+      "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml"
+    ],
+    "top_category_tabs": [],
+    "bottom_navigation": [],
+    "action_bar_controls": [],
+    "file_item_actions": [],
+    "floating_action_buttons": [],
+    "ad_surfaces": [
+      {
+        "label": "FrameLayout",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "WebView",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "View",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[0,126][1080,231]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "close-button",
+        "entry_type": "ad_surface",
+        "resource_id": "close-button",
+        "bounds": "[252,139][1080,231]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "PDF Editor：Scanner & Reader",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[372,162][706,207]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "Close and continue to app",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[700,168][966,204]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "View",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[981,152][1050,220]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "Image",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[981,152][1050,220]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "advertisement-card-wrapper",
+        "entry_type": "ad_surface",
+        "resource_id": "advertisement-card-wrapper",
+        "bounds": "[0,126][1080,2373]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "View",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[5,236][1076,299]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "Advertisement",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[18,246][288,294]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "ad iframe",
+        "entry_type": "ad_surface",
+        "resource_id": "ad_iframe",
+        "bounds": "[26,294][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "View",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[26,294][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "avic CIXa2-ayx5UDFTnoNAcdAYMtUA",
+        "entry_type": "ad_surface",
+        "resource_id": "avic_CIXa2-ayx5UDFTnoNAcdAYMtUA",
+        "bounds": "[26,294][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "View",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "google scaling div",
+        "entry_type": "ad_surface",
+        "resource_id": "google_scaling_div",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "ad unit",
+        "entry_type": "ad_surface",
+        "resource_id": "ad_unit",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "dclk-studio-creative 1783661990453",
+        "entry_type": "ad_surface",
+        "resource_id": "dclk-studio-creative_1783661990453",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "200 287 express html inpage 0.if",
+        "entry_type": "ad_surface",
+        "resource_id": "200_287_express_html_inpage_0.if",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "index",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "javascript:window.open(window",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "animation container",
+        "entry_type": "ad_surface",
+        "resource_id": "animation_container",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "canvas",
+        "entry_type": "ad_surface",
+        "resource_id": "canvas",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "dom overlay container",
+        "entry_type": "ad_surface",
+        "resource_id": "dom_overlay_container",
+        "bounds": "[26,296][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "abgcp",
+        "entry_type": "ad_surface",
+        "resource_id": "abgcp",
+        "bounds": "[882,296][1055,435]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "abgc",
+        "entry_type": "ad_surface",
+        "resource_id": "abgc",
+        "bounds": "[921,299][1052,354]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "abgb",
+        "entry_type": "ad_surface",
+        "resource_id": "abgb",
+        "bounds": "[921,299][1000,354]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "View",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[921,299][1000,354]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "Image",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[921,299][1002,354]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "cbb",
+        "entry_type": "ad_surface",
+        "resource_id": "cbb",
+        "bounds": "[997,299][1052,354]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "TextView",
+        "entry_type": "ad_surface",
+        "resource_id": "",
+        "bounds": "[26,294][1055,2352]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      }
+    ],
+    "candidate_pool": [],
+    "business_entries_total": 0,
+    "ad_entries_total": 31,
+    "snapshots": [
+      {
+        "source": "current_ui_probe",
+        "evidence": [
+          "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml"
+        ],
+        "top_category_tabs": [],
+        "bottom_navigation": [],
+        "action_bar_controls": [],
+        "file_item_actions": [],
+        "floating_action_buttons": [],
+        "ad_surfaces": [
+          {
+            "label": "FrameLayout",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "WebView",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "View",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[0,126][1080,231]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "close-button",
+            "entry_type": "ad_surface",
+            "resource_id": "close-button",
+            "bounds": "[252,139][1080,231]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "PDF Editor：Scanner & Reader",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[372,162][706,207]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "Close and continue to app",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[700,168][966,204]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "View",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[981,152][1050,220]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "Image",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[981,152][1050,220]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "advertisement-card-wrapper",
+            "entry_type": "ad_surface",
+            "resource_id": "advertisement-card-wrapper",
+            "bounds": "[0,126][1080,2373]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "View",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[5,236][1076,299]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "Advertisement",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[18,246][288,294]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "ad iframe",
+            "entry_type": "ad_surface",
+            "resource_id": "ad_iframe",
+            "bounds": "[26,294][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "View",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[26,294][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "avic CIXa2-ayx5UDFTnoNAcdAYMtUA",
+            "entry_type": "ad_surface",
+            "resource_id": "avic_CIXa2-ayx5UDFTnoNAcdAYMtUA",
+            "bounds": "[26,294][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "View",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "google scaling div",
+            "entry_type": "ad_surface",
+            "resource_id": "google_scaling_div",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "ad unit",
+            "entry_type": "ad_surface",
+            "resource_id": "ad_unit",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "dclk-studio-creative 1783661990453",
+            "entry_type": "ad_surface",
+            "resource_id": "dclk-studio-creative_1783661990453",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "200 287 express html inpage 0.if",
+            "entry_type": "ad_surface",
+            "resource_id": "200_287_express_html_inpage_0.if",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "index",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "javascript:window.open(window",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "animation container",
+            "entry_type": "ad_surface",
+            "resource_id": "animation_container",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "canvas",
+            "entry_type": "ad_surface",
+            "resource_id": "canvas",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "dom overlay container",
+            "entry_type": "ad_surface",
+            "resource_id": "dom_overlay_container",
+            "bounds": "[26,296][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "abgcp",
+            "entry_type": "ad_surface",
+            "resource_id": "abgcp",
+            "bounds": "[882,296][1055,435]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "abgc",
+            "entry_type": "ad_surface",
+            "resource_id": "abgc",
+            "bounds": "[921,299][1052,354]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "abgb",
+            "entry_type": "ad_surface",
+            "resource_id": "abgb",
+            "bounds": "[921,299][1000,354]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "View",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[921,299][1000,354]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "Image",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[921,299][1002,354]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "cbb",
+            "entry_type": "ad_surface",
+            "resource_id": "cbb",
+            "bounds": "[997,299][1052,354]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "TextView",
+            "entry_type": "ad_surface",
+            "resource_id": "",
+            "bounds": "[26,294][1055,2352]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_pdf_editor_after_cbb_close_probe.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          }
+        ],
+        "candidate_pool": [],
+        "business_entries_total": 0,
+        "ad_entries_total": 31,
+        "page_role": "unknown",
+        "activity": "com.google.android.libraries.ads.mobile.sdk.common.AdActivity"
+      }
+    ]
+  }
+}

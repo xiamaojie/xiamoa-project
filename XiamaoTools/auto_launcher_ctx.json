@@ -1,0 +1,31 @@
+{
+  "package": "com.artful.walls.launcher.ai.wonderful.live.lockscreen",
+  "app_name": "Artful Walls",
+  "launch_component": "com.artful.walls.launcher.ai.wonderful.live.lockscreen/com.project.activity.LoadingAct",
+  "launch_component_source": "preparse",
+  "launch_strategy": null,
+  "install_done_time": "2026-06-05T15:20:58",
+  "firebase_log_start_time": "2026-06-05T15:20:58",
+  "promote": null,
+  "ad_impressions": [],
+  "actions": [
+    {
+      "time": "2026-06-05T15:21:08",
+      "action": "force_stop_before_launcher",
+      "package": "com.artful.walls.launcher.ai.wonderful.live.lockscreen"
+    }
+  ],
+  "result": null,
+  "fail_reason": null,
+  "ad_format_counts": {},
+  "ad_platform_counts": {},
+  "firebase_params_count_list": [],
+  "preclean": {
+    "returncode": 0,
+    "stdout": "🔍 Android 伪启动器检测与清理工具\n\n[+] 共检测到 3 个 HOME 应用:\n    - com.android.settings\n    - com.google.android.apps.nexuslauncher\n    - com.hotpotgames.happysave.global\n\n⚠️  发现 1 个可疑启动器:\n    ❌ com.hotpotgames.happysave.global\n[+] 正在卸载: com.hotpotgames.happysave.global\n    ✓ 卸载成功\n\n✅ 清理完成！建议重启设备以确保彻底生效。",
+    "stderr": ""
+  },
+  "package_mtime": "2026-06-05 10:50:59",
+  "package_file": "/Users/admin/Downloads/Artful Walls-1.1.1.apk",
+  "package_type": "apk"
+}

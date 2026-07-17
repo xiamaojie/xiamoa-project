@@ -1,0 +1,971 @@
+{
+  "focus": {
+    "package": "com.pdf.scanner.editor.reader.office",
+    "activity": "com.mbridge.msdk.reward.player.MBRewardVideoActivity",
+    "raw": "mCurrentFocus=Window{431ef3b u0 com.pdf.scanner.editor.reader.office/com.mbridge.msdk.reward.player.MBRewardVideoActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.pdf.scanner.editor.reader.office",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.RelativeLayout",
+        "clickable": true,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_sound_switch",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "scrollable": false,
+        "bounds": [
+          26,
+          2295,
+          105,
+          2374
+        ]
+      }
+    ],
+    "ad_candidates": [
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.LinearLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "android:id/content",
+        "class": "android.widget.FrameLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_reward_root_container",
+        "class": "android.widget.FrameLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_temp_container",
+        "class": "android.widget.FrameLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.RelativeLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_video_templete_webview_parent",
+        "class": "android.widget.RelativeLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_video_templete_videoview",
+        "class": "android.widget.RelativeLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.widget.RelativeLayout",
+        "clickable": true,
+        "scrollable": false,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_top_control",
+        "class": "android.widget.RelativeLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          39,
+          1080,
+          233
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "4",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_tv_count",
+        "class": "android.widget.TextView",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          26,
+          167,
+          92,
+          233
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_vfpv_fl",
+        "class": "android.widget.FrameLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          240,
+          1080,
+          2160
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_vfpv",
+        "class": "android.widget.LinearLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          240,
+          1080,
+          2160
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_playercommon_rl_root",
+        "class": "android.widget.RelativeLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          240,
+          1080,
+          2160
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_playercommon_ll_sur_container",
+        "class": "android.widget.LinearLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          240,
+          1080,
+          2160
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.view.View",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          240,
+          1080,
+          2160
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_reward_bottom_widget",
+        "class": "android.widget.LinearLayout",
+        "clickable": false,
+        "scrollable": false,
+        "bounds": [
+          0,
+          2295,
+          1080,
+          2400
+        ]
+      },
+      {
+        "package": "com.pdf.scanner.editor.reader.office",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_sound_switch",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "scrollable": false,
+        "bounds": [
+          26,
+          2295,
+          105,
+          2374
+        ]
+      }
+    ],
+    "permission_candidates": [],
+    "scrollability": {
+      "status": "unknown",
+      "page_scrollable": "unknown",
+      "explicit_scrollable_nodes": [],
+      "scrollable_container_nodes": [],
+      "wallpaper_visual_nodes": [
+        "mbridge sound switch"
+      ],
+      "image_like_count": 1
+    },
+    "visible_entry_count": 17,
+    "node_count": 18
+  },
+  "visible_entry_inventory": {
+    "source": "current_ui_probe",
+    "evidence": [
+      "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml"
+    ],
+    "top_category_tabs": [],
+    "bottom_navigation": [],
+    "action_bar_controls": [],
+    "file_item_actions": [],
+    "floating_action_buttons": [
+      {
+        "label": "FrameLayout",
+        "entry_type": "floating_action_button",
+        "resource_id": "",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": false,
+        "click_forbidden": false,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": true,
+        "candidate_priority": "P0",
+        "candidate_feature_id": "scan_fab_entry",
+        "executed": false,
+        "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+      },
+      {
+        "label": "LinearLayout",
+        "entry_type": "floating_action_button",
+        "resource_id": "",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": false,
+        "click_forbidden": false,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": true,
+        "candidate_priority": "P0",
+        "candidate_feature_id": "scan_fab_entry",
+        "executed": false,
+        "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+      },
+      {
+        "label": "content",
+        "entry_type": "floating_action_button",
+        "resource_id": "android:id/content",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": false,
+        "click_forbidden": false,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": true,
+        "candidate_priority": "P0",
+        "candidate_feature_id": "scan_fab_entry",
+        "executed": false,
+        "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+      },
+      {
+        "label": "RelativeLayout",
+        "entry_type": "floating_action_button",
+        "resource_id": "",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": false,
+        "click_forbidden": false,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": true,
+        "candidate_priority": "P0",
+        "candidate_feature_id": "scan_fab_entry",
+        "executed": false,
+        "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+      },
+      {
+        "label": "View",
+        "entry_type": "floating_action_button",
+        "resource_id": "",
+        "bounds": "[0,240][1080,2160]",
+        "visible": true,
+        "is_ad": false,
+        "click_forbidden": false,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": true,
+        "candidate_priority": "P0",
+        "candidate_feature_id": "scan_fab_entry",
+        "executed": false,
+        "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+      }
+    ],
+    "ad_surfaces": [
+      {
+        "label": "mbridge reward root container",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_reward_root_container",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge temp container",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_temp_container",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge video templete webview parent",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_video_templete_webview_parent",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge video templete videoview",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_video_templete_videoview",
+        "bounds": "[0,0][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge top control",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_top_control",
+        "bounds": "[0,39][1080,233]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "4",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_tv_count",
+        "bounds": "[26,167][92,233]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge vfpv fl",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_vfpv_fl",
+        "bounds": "[0,240][1080,2160]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge vfpv",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_vfpv",
+        "bounds": "[0,240][1080,2160]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge playercommon rl root",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_playercommon_rl_root",
+        "bounds": "[0,240][1080,2160]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge playercommon ll sur container",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_playercommon_ll_sur_container",
+        "bounds": "[0,240][1080,2160]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge reward bottom widget",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_reward_bottom_widget",
+        "bounds": "[0,2295][1080,2400]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      },
+      {
+        "label": "mbridge sound switch",
+        "entry_type": "ad_surface",
+        "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_sound_switch",
+        "bounds": "[26,2295][105,2374]",
+        "visible": true,
+        "is_ad": true,
+        "click_forbidden": true,
+        "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+        "candidate_generated": false,
+        "candidate_priority": "",
+        "candidate_feature_id": "",
+        "executed": false,
+        "not_executed_reason": ""
+      }
+    ],
+    "candidate_pool": [
+      {
+        "feature_id": "scan_fab_entry",
+        "priority": "P0",
+        "label": "扫描 FAB 入口",
+        "entry_labels": [
+          "FrameLayout",
+          "LinearLayout",
+          "content",
+          "RelativeLayout",
+          "View"
+        ],
+        "entry_types": [
+          "floating_action_button"
+        ],
+        "executed": false,
+        "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+      },
+      {
+        "feature_id": "scanner_component_capability",
+        "priority": "P0",
+        "label": "扫描组件能力",
+        "entry_labels": [
+          "FrameLayout",
+          "LinearLayout",
+          "content",
+          "RelativeLayout",
+          "View"
+        ],
+        "entry_types": [
+          "floating_action_button"
+        ],
+        "executed": false,
+        "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+      }
+    ],
+    "business_entries_total": 5,
+    "ad_entries_total": 12,
+    "scrollability": {
+      "status": "unknown",
+      "page_scrollable": "unknown",
+      "explicit_scrollable_nodes": [],
+      "scrollable_container_nodes": [],
+      "wallpaper_visual_nodes": [
+        "mbridge sound switch"
+      ],
+      "image_like_count": 1
+    },
+    "snapshots": [
+      {
+        "source": "current_ui_probe",
+        "evidence": [
+          "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml"
+        ],
+        "top_category_tabs": [],
+        "bottom_navigation": [],
+        "action_bar_controls": [],
+        "file_item_actions": [],
+        "floating_action_buttons": [
+          {
+            "label": "FrameLayout",
+            "entry_type": "floating_action_button",
+            "resource_id": "",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": false,
+            "click_forbidden": false,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": true,
+            "candidate_priority": "P0",
+            "candidate_feature_id": "scan_fab_entry",
+            "executed": false,
+            "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+          },
+          {
+            "label": "LinearLayout",
+            "entry_type": "floating_action_button",
+            "resource_id": "",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": false,
+            "click_forbidden": false,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": true,
+            "candidate_priority": "P0",
+            "candidate_feature_id": "scan_fab_entry",
+            "executed": false,
+            "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+          },
+          {
+            "label": "content",
+            "entry_type": "floating_action_button",
+            "resource_id": "android:id/content",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": false,
+            "click_forbidden": false,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": true,
+            "candidate_priority": "P0",
+            "candidate_feature_id": "scan_fab_entry",
+            "executed": false,
+            "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+          },
+          {
+            "label": "RelativeLayout",
+            "entry_type": "floating_action_button",
+            "resource_id": "",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": false,
+            "click_forbidden": false,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": true,
+            "candidate_priority": "P0",
+            "candidate_feature_id": "scan_fab_entry",
+            "executed": false,
+            "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+          },
+          {
+            "label": "View",
+            "entry_type": "floating_action_button",
+            "resource_id": "",
+            "bounds": "[0,240][1080,2160]",
+            "visible": true,
+            "is_ad": false,
+            "click_forbidden": false,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": true,
+            "candidate_priority": "P0",
+            "candidate_feature_id": "scan_fab_entry",
+            "executed": false,
+            "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+          }
+        ],
+        "ad_surfaces": [
+          {
+            "label": "mbridge reward root container",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_reward_root_container",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge temp container",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_temp_container",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge video templete webview parent",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_video_templete_webview_parent",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge video templete videoview",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_video_templete_videoview",
+            "bounds": "[0,0][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge top control",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_top_control",
+            "bounds": "[0,39][1080,233]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "4",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_tv_count",
+            "bounds": "[26,167][92,233]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge vfpv fl",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_vfpv_fl",
+            "bounds": "[0,240][1080,2160]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge vfpv",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_vfpv",
+            "bounds": "[0,240][1080,2160]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge playercommon rl root",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_playercommon_rl_root",
+            "bounds": "[0,240][1080,2160]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge playercommon ll sur container",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_playercommon_ll_sur_container",
+            "bounds": "[0,240][1080,2160]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge reward bottom widget",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_reward_bottom_widget",
+            "bounds": "[0,2295][1080,2400]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          },
+          {
+            "label": "mbridge sound switch",
+            "entry_type": "ad_surface",
+            "resource_id": "com.pdf.scanner.editor.reader.office:id/mbridge_sound_switch",
+            "bounds": "[26,2295][105,2374]",
+            "visible": true,
+            "is_ad": true,
+            "click_forbidden": true,
+            "evidence": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/launcher_run_pdf_editor_20260717_174246/optional/negative_screen.xml",
+            "candidate_generated": false,
+            "candidate_priority": "",
+            "candidate_feature_id": "",
+            "executed": false,
+            "not_executed_reason": ""
+          }
+        ],
+        "candidate_pool": [
+          {
+            "feature_id": "scan_fab_entry",
+            "priority": "P0",
+            "label": "扫描 FAB 入口",
+            "entry_labels": [
+              "FrameLayout",
+              "LinearLayout",
+              "content",
+              "RelativeLayout",
+              "View"
+            ],
+            "entry_types": [
+              "floating_action_button"
+            ],
+            "executed": false,
+            "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+          },
+          {
+            "feature_id": "scanner_component_capability",
+            "priority": "P0",
+            "label": "扫描组件能力",
+            "entry_labels": [
+              "FrameLayout",
+              "LinearLayout",
+              "content",
+              "RelativeLayout",
+              "View"
+            ],
+            "entry_types": [
+              "floating_action_button"
+            ],
+            "executed": false,
+            "not_executed_reason": "visible_entry_candidate_not_executed_in_current_time_budget"
+          }
+        ],
+        "business_entries_total": 5,
+        "ad_entries_total": 12,
+        "scrollability": {
+          "status": "unknown",
+          "page_scrollable": "unknown",
+          "explicit_scrollable_nodes": [],
+          "scrollable_container_nodes": [],
+          "wallpaper_visual_nodes": [
+            "mbridge sound switch"
+          ],
+          "image_like_count": 1
+        },
+        "page_role": "unknown",
+        "activity": "com.mbridge.msdk.reward.player.MBRewardVideoActivity"
+      }
+    ]
+  }
+}

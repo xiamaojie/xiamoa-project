@@ -1,0 +1,98 @@
+{
+  "focus": {
+    "package": "com.nova.torch.bright.flashlight.dark",
+    "activity": "com.project.core.activitys.LauncherHomeActivity",
+    "raw": "mCurrentFocus=Window{67524e1 u0 com.nova.torch.bright.flashlight.dark/com.project.core.activitys.LauncherHomeActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1782799018115.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1782799018115.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_nova_magnifier_allowed_probe_20260630_135015.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.nova.torch.bright.flashlight.dark",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/magnifier_icon",
+        "class": "android.widget.ImageView",
+        "clickable": true,
+        "bounds": [
+          906,
+          1675,
+          1027,
+          1796
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Flash",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/flash_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          121,
+          2059,
+          330,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Magnifier",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/magnifier_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          330,
+          2059,
+          540,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Text Light",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/text_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          540,
+          2059,
+          750,
+          2232
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Screen Light",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/screen_icon",
+        "class": "android.widget.LinearLayout",
+        "clickable": true,
+        "bounds": [
+          750,
+          2059,
+          960,
+          2232
+        ]
+      }
+    ],
+    "ad_candidates": [],
+    "permission_candidates": [],
+    "node_count": 10
+  }
+}

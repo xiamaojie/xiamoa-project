@@ -1,0 +1,238 @@
+{
+  "focus": {
+    "package": "com.nova.torch.bright.flashlight.dark",
+    "activity": "com.project.core.activitys.LauncherHomeActivity",
+    "raw": "mCurrentFocus=Window{67524e1 u0 com.nova.torch.bright.flashlight.dark/com.project.core.activitys.LauncherHomeActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1782799293903.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1782799293903.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_nova_home_recovery_probe_20260630_135015.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.nova.torch.bright.flashlight.dark",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/bc_smartspace_weather_view",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          43,
+          347,
+          1037,
+          788
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Setting",
+        "content_desc": "Nova Torch",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          22,
+          1104,
+          281,
+          1420
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "YouTube",
+        "content_desc": "YouTube",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          281,
+          1104,
+          540,
+          1420
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Chrome",
+        "content_desc": "Chrome",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          540,
+          1104,
+          799,
+          1420
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Phone",
+        "content_desc": "Phone",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          799,
+          1104,
+          1058,
+          1420
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Folder: Google, 4 or more items",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          22,
+          1420,
+          281,
+          1736
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Weather",
+        "content_desc": "Nova Torch",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          281,
+          1420,
+          540,
+          1736
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Wallpaper",
+        "content_desc": "Nova Torch",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          540,
+          1420,
+          799,
+          1736
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Nova Torch",
+        "content_desc": "Nova Torch",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          799,
+          1420,
+          1058,
+          1736
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Phone",
+        "content_desc": "Phone",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          22,
+          1801,
+          281,
+          2101
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Messages",
+        "content_desc": "Messages",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          281,
+          1801,
+          540,
+          2101
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Contacts",
+        "content_desc": "Contacts",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          540,
+          1801,
+          799,
+          2101
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "Chrome",
+        "content_desc": "Chrome",
+        "resource_id": "",
+        "class": "android.widget.TextView",
+        "clickable": true,
+        "bounds": [
+          799,
+          1801,
+          1058,
+          2101
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Search",
+        "resource_id": "",
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": [
+          72,
+          2106,
+          1008,
+          2274
+        ]
+      },
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "Voice Search",
+        "resource_id": "com.nova.torch.bright.flashlight.dark:id/mic_icon",
+        "class": "android.widget.ImageButton",
+        "clickable": true,
+        "bounds": [
+          861,
+          2122,
+          1008,
+          2258
+        ]
+      }
+    ],
+    "ad_candidates": [],
+    "permission_candidates": [],
+    "node_count": 21
+  }
+}

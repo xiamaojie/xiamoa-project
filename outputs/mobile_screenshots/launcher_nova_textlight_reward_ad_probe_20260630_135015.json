@@ -1,0 +1,42 @@
+{
+  "focus": {
+    "package": "com.nova.torch.bright.flashlight.dark",
+    "activity": "com.google.android.libraries.ads.mobile.sdk.common.AdActivity",
+    "raw": "mCurrentFocus=Window{4b3c7de u0 com.nova.torch.bright.flashlight.dark/com.google.android.libraries.ads.mobile.sdk.common.AdActivity"
+  },
+  "dump": {
+    "dump_status": "success",
+    "dump_returncode": 0,
+    "dump_stdout": "UI hierchary dumped to: /sdcard/window_1782799159844.xml",
+    "dump_stderr": "",
+    "pull_returncode": 0,
+    "remote_xml_path": "/sdcard/window_1782799159844.xml",
+    "remote_cleanup_returncode": 0,
+    "remote_cleanup_stderr": "",
+    "xml_path": "/Users/admin/PycharmProjects/XiamaoTestProject/outputs/mobile_screenshots/launcher_nova_textlight_reward_ad_probe_20260630_135015.xml"
+  },
+  "summary": {
+    "xml_fresh": true,
+    "foreground_package_from_xml": "com.nova.torch.bright.flashlight.dark",
+    "warnings": [],
+    "clickable_nodes": [
+      {
+        "package": "com.nova.torch.bright.flashlight.dark",
+        "text": "",
+        "content_desc": "",
+        "resource_id": "",
+        "class": "android.webkit.WebView",
+        "clickable": true,
+        "bounds": [
+          0,
+          0,
+          1080,
+          2400
+        ]
+      }
+    ],
+    "ad_candidates": [],
+    "permission_candidates": [],
+    "node_count": 2
+  }
+}
