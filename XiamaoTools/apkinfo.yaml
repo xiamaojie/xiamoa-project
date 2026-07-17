@@ -1,9 +1,9 @@
 com.deama.gold.shortreel:
-  version: 1.1.6
-  versionCode: 116
+  version: 1.1.7
+  versionCode: 117
 com.earth.explorer.launcher.live.map.satelliteview:
-  version: 1.2.1
-  versionCode: 25
+  version: 1.2.3
+  versionCode: 27
 com.world.explorer.live.earth.map:
   version: 1.0.5
   versionCode: 7
@@ -18,7 +18,7 @@ com.aidivination.lunar:
   versionCode: 1
 com.hotpotgames.happysave.global:
   version: 1.0.2
-  versionCode: 3
+  versionCode: 2
 com.github.metacubex.clash.meta:
   version: 2.11.18.Meta
   versionCode: 211018
@@ -44,8 +44,8 @@ com.pdf.reader.file.manager.imagetopdf:
   version: 1.1.6
   versionCode: 17
 com.earthmap.camera.satellite.pro:
-  version: 1.0.0
-  versionCode: 1
+  version: 1.0.9
+  versionCode: 13
 com.my.health.log.protect.heart.blood.sugar:
   version: 1.0.7
   versionCode: 8
@@ -89,14 +89,14 @@ com.find.phone.clap.launcher.whistle.locator:
   version: 1.0.9
   versionCode: 10
 com.locate.your.device.find.phone.by.clap:
-  version: 1.0.9
-  versionCode: 10
+  version: 1.1.1
+  versionCode: 12
 com.flashlight.nova.launcher.zoom.version.light.dark:
   version: 1.0.7
   versionCode: 8
 com.wallpaper.spark.launcher.live.flow.magic:
-  version: 1.1.4
-  versionCode: 15
+  version: 1.1.8
+  versionCode: 19
 com.jogo.arrowsandarrows:
   version: 3.0.5
   versionCode: 29
@@ -107,11 +107,11 @@ com.clap.sound.device.finder:
   version: 1.0.4
   versionCode: 5
 com.wifi.analyzer.check.speed:
-  version: 1.0.7
-  versionCode: 10
+  version: 1.0.8
+  versionCode: 11
 com.pdf.scanner.viewer.reader.edit.pro:
-  version: 1.1.1
-  versionCode: 12
+  version: 1.1.2
+  versionCode: 13
 com.artful.walls.launcher.ai.wonderful.live.lockscreen:
   version: 1.1.2
   versionCode: 14
@@ -140,14 +140,38 @@ com.find.phone.by.clap.locate.your.device:
   version: 1.0.0
   versionCode: 1
 com.lumina.flashlight.home:
-  version: 1.0.2
-  versionCode: 3
+  version: 1.0.3
+  versionCode: 4
 com.live.earth.map.real.world.satelliteview.earthmap:
   version: 1.0.2
   versionCode: 4
 com.shimeji.go.anime.screen.pets:
-  version: 1.0.4
-  versionCode: 6
+  version: 1.0.5
+  versionCode: 7
 com.nova.torch.bright.flashlight.dark:
   version: 1.0.1
   versionCode: 4
+com.globe.vision.live.earth.map.satellite:
+  version: 1.0.2
+  versionCode: 3
+com.dramawin.lucky.shorts:
+  version: 1.0.2
+  versionCode: 4
+com.live.earth.hd.satellite.view.worldview:
+  version: 1.0.8
+  versionCode: 9
+com.weather.aura.live.nowcast.radar.forecast:
+  version: 1.0.3
+  versionCode: 4
+com.pdf.prime.scan.manager.scanner.reader:
+  version: 1.0.9
+  versionCode: 9
+com.weather.now.radar.alerts:
+  version: 1.0.1
+  versionCode: 2
+com.pdf.scanner.editor.reader.office:
+  version: 1.0.4
+  versionCode: 4
+com.vista.cam.live.map.satelliteview:
+  version: 1.0.2
+  versionCode: 3
